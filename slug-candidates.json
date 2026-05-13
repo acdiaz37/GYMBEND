@@ -1,0 +1,822 @@
+[
+  {
+    "id": "curl_de_b_ceps_en_copa_con_pesa_rusa",
+    "title": "Curl de Bíceps en Copa con Pesa Rusa",
+    "slug": "kettlebell-curl-bicep-goblet-pesrusa"
+  },
+  {
+    "id": "curl_concentrado_con_pesa_rusa",
+    "title": "Curl Concentrado Con Pesa Rusa",
+    "slug": "kettlebell-curl-concentration-pesrusa"
+  },
+  {
+    "id": "curl_predicador_con_pesa_rusa",
+    "title": "Curl Predicador con Pesa Rusa",
+    "slug": "kettlebell-curl-preacher-pesrusa"
+  },
+  {
+    "id": "remo_con_pesa_rusa_a_un_brazo",
+    "title": "Remo con pesa rusa (a un brazo)",
+    "slug": "kettlebell-row-pesrussingle-arm"
+  },
+  {
+    "id": "remo_con_pesa_rusa_para_deltoides_posteriores",
+    "title": "Remo con pesa rusa para deltoides posteriores",
+    "slug": "kettlebell-row-pesrusparrear-delt"
+  },
+  {
+    "id": "curl_unilateral_de_b_ceps_con_kettlebell",
+    "title": "Curl Unilateral de Bíceps con Kettlebell",
+    "slug": "kettlebell-curl-single-arm-bicep-kettlebell"
+  },
+  {
+    "id": "remo_a_un_brazo_con_kettlebell",
+    "title": "Remo a un brazo con kettlebell",
+    "slug": "kettlebell-row-single-arm-kettlebell"
+  },
+  {
+    "id": "remo_alterno_con_pesa_rusa",
+    "title": "Remo Alterno con Pesa Rusa",
+    "slug": "kettlebell-row-alternatingting-pesrusa"
+  },
+  {
+    "id": "curl_de_b_ceps_con_kettlebell",
+    "title": "Curl de bíceps con kettlebell",
+    "slug": "kettlebell-curl-bicep-kettlebell"
+  },
+  {
+    "id": "remo_gorila_con_pesa_rusa",
+    "title": "Remo gorila con pesa rusa",
+    "slug": "kettlebell-row-gorillpesrusa"
+  },
+  {
+    "id": "remo_con_pesa_rusa_para_deltoides_posteriores_doble",
+    "title": "Remo con Pesa Rusa para Deltoides Posteriores (Doble)",
+    "slug": "kettlebell-row-pesrusparrear-delt-double"
+  },
+  {
+    "id": "curl_inverso_con_pesa_rusa",
+    "title": "Curl inverso con pesa rusa",
+    "slug": "kettlebell-curl-reverse-pesrusa"
+  },
+  {
+    "id": "remo_con_pesa_rusa",
+    "title": "Remo con pesa rusa",
+    "slug": "kettlebell-row-pesrusa"
+  },
+  {
+    "id": "curl_inverso_con_pesa_rusa_de_un_solo_brazo",
+    "title": "Curl Inverso con Pesa Rusa de un solo Brazo",
+    "slug": "kettlebell-curl-reverse-pesrussingle-arm"
+  },
+  {
+    "id": "remo_con_mancuerna_de_pesas_rusas_a_una_mano_en_banco",
+    "title": "Remo con Mancuerna de Pesas Rusas a Una Mano en Banco",
+    "slug": "kettlebell-row-mancuernpesas-rusas-single-arm-bench"
+  },
+  {
+    "id": "kettlebell_drag_curl",
+    "title": "Kettlebell Drag Curl",
+    "slug": "kettlebell-drag-curl"
+  },
+  {
+    "id": "kettlebell_single_arm_rear_delt_row",
+    "title": "Kettlebell Single Arm Rear Delt Row",
+    "slug": "kettlebell-single-arm-rear-delt-row"
+  },
+  {
+    "id": "kettlebell_single_arm_pendlay_row",
+    "title": "Kettlebell Single Arm Pendlay Row",
+    "slug": "kettlebell-single-arm-pendlay-row"
+  },
+  {
+    "id": "peso_muerto_con_pesa_rusa_a_una_mano",
+    "title": "Peso muerto con pesa rusa (a una mano)",
+    "slug": "kettlebell-deadlift-pesrussingle-arm"
+  },
+  {
+    "id": "encogimiento_de_hombros_con_pesa_rusa_silverback_unilateral",
+    "title": "Encogimiento De Hombros Con Pesa Rusa Silverback (Unilateral)",
+    "slug": "kettlebell-shrug-shoulder-pesrussilverback-single-arm"
+  },
+  {
+    "id": "encogimientos_de_hombros_en_banco_inclinado_con_pesa_rusa",
+    "title": "Encogimientos de hombros en banco inclinado con pesa rusa",
+    "slug": "kettlebell-shrugs-shoulder-incline-bench-pesrusa"
+  },
+  {
+    "id": "encogimiento_de_hombros_con_pesa_rusa_silverback",
+    "title": "Encogimiento de hombros con pesa rusa Silverback",
+    "slug": "kettlebell-shrug-shoulder-pesrussilverback"
+  },
+  {
+    "id": "balanceo_con_pesa_rusa",
+    "title": "Balanceo con pesa rusa",
+    "slug": "kettlebell-swing-pesrusa"
+  },
+  {
+    "id": "peso_muerto_a_una_pierna_con_pesa_rusa",
+    "title": "Peso muerto a una pierna con pesa rusa",
+    "slug": "kettlebell-deadlift-single-leg-pesrusa"
+  },
+  {
+    "id": "peso_muerto_escalonado_con_pesa_rusa_unilateral",
+    "title": "Peso Muerto Escalonado con Pesa Rusa (Unilateral)",
+    "slug": "kettlebell-deadlift-staggered-pesrussingle-arm"
+  },
+  {
+    "id": "buenos_d_as_con_pesa_rusa_en_posici_n_copa",
+    "title": "Buenos Días con Pesa Rusa en Posición Copa",
+    "slug": "kettlebell-good-morning-pesrusposicin-copa"
+  },
+  {
+    "id": "superman_con_pesa_rusa",
+    "title": "Superman con pesa rusa",
+    "slug": "kettlebell-superman-pesrusa"
+  },
+  {
+    "id": "sost_n_superman_con_pesa_rusa",
+    "title": "Sostén Superman con pesa rusa",
+    "slug": "kettlebell-sostn-superman-pesrusa"
+  },
+  {
+    "id": "balanceo_alterno_con_pesa_rusa",
+    "title": "Balanceo alterno con pesa rusa",
+    "slug": "kettlebell-swing-alternatingting-pesrusa"
+  },
+  {
+    "id": "peso_muerto_convencional_con_pesas_rusas_doble",
+    "title": "Peso Muerto Convencional con Pesas Rusas (Doble)",
+    "slug": "kettlebell-deadlift-conventional-pesas-rusas-double"
+  },
+  {
+    "id": "balanceo_con_dos_pesas_rusas",
+    "title": "Balanceo con dos pesas rusas",
+    "slug": "kettlebell-swing-dos-pesas-rusas"
+  },
+  {
+    "id": "balanceo_completo_con_pesa_rusa",
+    "title": "Balanceo Completo con Pesa Rusa",
+    "slug": "kettlebell-swing-full-pesrusa"
+  },
+  {
+    "id": "peso_muerto_rumano_con_pesa_rusa",
+    "title": "Peso Muerto Rumano con Pesa Rusa",
+    "slug": "kettlebell-deadlift-romanian-pesrusa"
+  },
+  {
+    "id": "swing_con_pesa_rusa_a_un_brazo",
+    "title": "Swing Con Pesa Rusa A Un Brazo",
+    "slug": "kettlebell-swing-pesrussingle-arm"
+  },
+  {
+    "id": "peso_muerto_escalonado_con_pesa_rusa",
+    "title": "Peso Muerto Escalonado con Pesa Rusa",
+    "slug": "kettlebell-deadlift-staggered-pesrusa"
+  },
+  {
+    "id": "balanceo_escalonado_con_pesa_rusa",
+    "title": "Balanceo Escalonado con Pesa Rusa",
+    "slug": "kettlebell-swing-staggered-pesrusa"
+  },
+  {
+    "id": "peso_muerto_sumo_con_pesa_rusa",
+    "title": "Peso muerto sumo con pesa rusa",
+    "slug": "kettlebell-deadlift-sumo-pesrusa"
+  },
+  {
+    "id": "balanceo_a_remo_al_ment_n",
+    "title": "Balanceo a Remo al Mentón",
+    "slug": "kettlebell-swing-row-to-chin"
+  },
+  {
+    "id": "peso_muerto_tipo_maleta_con_pesa_rusa",
+    "title": "Peso muerto tipo maleta con pesa rusa",
+    "slug": "kettlebell-deadlift-suitcase-pesrusa"
+  },
+  {
+    "id": "sentadilla_con_kettlebell_en_caja",
+    "title": "Sentadilla con Kettlebell en caja",
+    "slug": "kettlebell-squat-kettlebell-box"
+  },
+  {
+    "id": "flexi_n_de_camarero_escalonada_con_kettlebell",
+    "title": "Flexión de Camarero Escalonada con Kettlebell",
+    "slug": "kettlebell-curl-waiter-staggered-kettlebell"
+  },
+  {
+    "id": "kettlebell_reverencia_del_camarero",
+    "title": "Kettlebell reverencia del camarero",
+    "slug": "kettlebell-reverencia-del-camarero"
+  },
+  {
+    "id": "levantamiento_rumano_a_media_rodilla_con_pesa_rusa",
+    "title": "Levantamiento rumano a media rodilla con pesa rusa",
+    "slug": "kettlebell-raise-romanian-half-kneeling-pesrusa"
+  },
+  {
+    "id": "levantamiento_rumano_a_una_pierna_con_kettlebell_en_posici_n_de_medio_arrodillado",
+    "title": "Levantamiento rumano a una pierna con kettlebell en posición de medio arrodillado",
+    "slug": "kettlebell-raise-romanian-single-leg-kettlebell-posicin-medio-kneeling"
+  },
+  {
+    "id": "kettlebell_hang_clean_and_press",
+    "title": "Kettlebell Hang Clean And Press",
+    "slug": "kettlebell-hang-clean-and-press"
+  },
+  {
+    "id": "kettlebell_spinal_jefferson_curl",
+    "title": "Kettlebell Spinal Jefferson Curl",
+    "slug": "kettlebell-spinal-jefferson-curl"
+  },
+  {
+    "id": "kettlebell_clean_and_jerk",
+    "title": "Kettlebell Clean And Jerk",
+    "slug": "kettlebell-clean-and-jerk"
+  },
+  {
+    "id": "kettlebell_hang_clean_and_jerk",
+    "title": "Kettlebell Hang Clean And Jerk",
+    "slug": "kettlebell-hang-clean-and-jerk"
+  },
+  {
+    "id": "kettlebell_hang_squat_clean_and_jerk",
+    "title": "Kettlebell Hang Squat Clean And Jerk",
+    "slug": "kettlebell-hang-squat-clean-and-jerk"
+  },
+  {
+    "id": "kettlebell_single_arm_clean_and_jerk",
+    "title": "Kettlebell Single Arm Clean And Jerk",
+    "slug": "kettlebell-single-arm-clean-and-jerk"
+  },
+  {
+    "id": "kettlebell_single_arm_hang_clean_and_jerk",
+    "title": "Kettlebell Single Arm Hang Clean And Jerk",
+    "slug": "kettlebell-single-arm-hang-clean-and-jerk"
+  },
+  {
+    "id": "kettlebell_squat_clean_and_jerk",
+    "title": "Kettlebell Squat Clean And Jerk",
+    "slug": "kettlebell-squat-clean-and-jerk"
+  },
+  {
+    "id": "abdominal_con_kettlebell",
+    "title": "Abdominal con Kettlebell",
+    "slug": "kettlebell-crunch-kettlebell"
+  },
+  {
+    "id": "giro_ruso_con_kettlebell",
+    "title": "Giro ruso con kettlebell",
+    "slug": "kettlebell-russian-twist-kettlebell"
+  },
+  {
+    "id": "molino_con_pesa_rusa",
+    "title": "Molino con Pesa Rusa",
+    "slug": "kettlebell-windmill-pesrusa"
+  },
+  {
+    "id": "plancha_hueca_con_pesa_rusa",
+    "title": "Plancha hueca con pesa rusa",
+    "slug": "kettlebell-plank-hollow-pesrusa"
+  },
+  {
+    "id": "zancada_en_reverencia_con_kettlebells_en_rack_frontal_doble",
+    "title": "Zancada En Reverencia Con Kettlebells En Rack Frontal (Doble)",
+    "slug": "kettlebell-lunge-curtskettlebells-front-rack-double"
+  },
+  {
+    "id": "zancada_hacia_adelante_con_kettlebells_en_rack_frontal_doble",
+    "title": "Zancada Hacia Adelante Con Kettlebells En Rack Frontal (Doble)",
+    "slug": "kettlebell-lunge-haciadelante-kettlebells-front-rack-double"
+  },
+  {
+    "id": "zancada_lateral_con_pesa_rusa_en_rack_frontal_doble",
+    "title": "Zancada lateral con pesa rusa en rack frontal (doble)",
+    "slug": "kettlebell-lunge-lateral-pesrusfront-rack-double"
+  },
+  {
+    "id": "zancada_inversa_con_pesas_rusas_en_posici_n_front_rack_doble",
+    "title": "Zancada Inversa con Pesas Rusas en Posición Front Rack (Doble)",
+    "slug": "kettlebell-lunge-reverse-pesas-rusas-posicin-front-rack-double"
+  },
+  {
+    "id": "zancada_lateral_con_pesa_rusa_en_rack_frontal_a_un_brazo",
+    "title": "Zancada Lateral con Pesa Rusa en Rack Frontal a Un Brazo",
+    "slug": "kettlebell-lunge-lateral-pesrusfront-rack-single-arm"
+  },
+  {
+    "id": "sentadilla_frontal_con_pesa_rusa",
+    "title": "Sentadilla Frontal con Pesa Rusa",
+    "slug": "kettlebell-squat-front-pesrusa"
+  },
+  {
+    "id": "zancada_hacia_adelante_con_pesa_rusa_en_rack_frontal_a_un_brazo",
+    "title": "Zancada Hacia Adelante Con Pesa Rusa en Rack Frontal a Un Brazo",
+    "slug": "kettlebell-lunge-haciadelante-pesrusfront-rack-single-arm"
+  },
+  {
+    "id": "subida_al_caj_n_con_pesa_rusa_en_rack_frontal_un_brazo",
+    "title": "Subida al cajón con pesa rusa en rack frontal (un brazo)",
+    "slug": "kettlebell-step-up-al-box-pesrusfront-rack-un-brazo"
+  },
+  {
+    "id": "step_up_con_pesa_rusa_en_rack_frontal",
+    "title": "Step-up con pesa rusa en rack frontal",
+    "slug": "kettlebell-step-up-pesrusfront-rack"
+  },
+  {
+    "id": "molino_con_pesa_rusa_mano_baja",
+    "title": "Molino con pesa rusa — mano baja",
+    "slug": "kettlebell-windmill-pesrus-mano-baja"
+  },
+  {
+    "id": "kettlebell_single_arm_larsen_press",
+    "title": "Kettlebell Single Arm Larsen Press",
+    "slug": "kettlebell-single-arm-larsen-press"
+  },
+  {
+    "id": "kettlebell_larsen_press",
+    "title": "Kettlebell Larsen Press",
+    "slug": "kettlebell-larsen-press"
+  },
+  {
+    "id": "elevaci_n_de_gemelos_a_una_pierna_con_pesa_rusa",
+    "title": "Elevación de gemelos a una pierna con pesa rusa",
+    "slug": "kettlebell-raise-calf-single-leg-pesrusa"
+  },
+  {
+    "id": "elevaci_n_de_gemelos_con_pesa_rusa",
+    "title": "Elevación de gemelos con pesa rusa",
+    "slug": "kettlebell-raise-calf-pesrusa"
+  },
+  {
+    "id": "elevaci_n_de_gemelos_sentado_con_pesa_rusa",
+    "title": "Elevación de gemelos sentado con pesa rusa",
+    "slug": "kettlebell-raise-calf-seated-pesrusa"
+  },
+  {
+    "id": "elevaci_n_de_gemelos_con_kettlebell_a_una_mano",
+    "title": "Elevación de Gemelos con Kettlebell a Una Mano",
+    "slug": "kettlebell-raise-calf-kettlebell-single-arm"
+  },
+  {
+    "id": "elevaci_n_de_gemelos_con_kettlebell_en_posici_n_de_copa",
+    "title": "Elevación de gemelos con kettlebell en posición de copa",
+    "slug": "kettlebell-raise-calf-kettlebell-goblet"
+  },
+  {
+    "id": "levantamiento_de_pantorrilla_con_kettlebell_a_una_pierna_y_un_brazo",
+    "title": "Levantamiento de Pantorrilla con Kettlebell a una Pierna y un Brazo",
+    "slug": "kettlebell-raise-calf-kettlebell-single-leg-un-brazo"
+  },
+  {
+    "id": "levantamiento_doble_de_pantorrilla_sentado_con_kettlebell",
+    "title": "Levantamiento Doble de Pantorrilla Sentado con Kettlebell",
+    "slug": "kettlebell-raise-double-calf-seated-kettlebell"
+  },
+  {
+    "id": "kettlebell_tibialis_raise",
+    "title": "Kettlebell Tibialis Raise",
+    "slug": "kettlebell-tibialis-raise"
+  },
+  {
+    "id": "caminata_del_granjero_con_kettlebells",
+    "title": "Caminata Del Granjero Con Kettlebells",
+    "slug": "kettlebell-walk-del-farmer-kettlebells"
+  },
+  {
+    "id": "extensi_n_de_mu_eca_con_pesa_rusa",
+    "title": "Extensión de muñeca con pesa rusa",
+    "slug": "kettlebell-extension-wrist-pesrusa"
+  },
+  {
+    "id": "curl_de_mu_eca_con_pesa_rusa",
+    "title": "Curl de Muñeca con Pesa Rusa",
+    "slug": "kettlebell-curl-wrist-pesrusa"
+  },
+  {
+    "id": "paseo_del_granjero_con_pesa_rusa",
+    "title": "Paseo del Granjero con Pesa Rusa",
+    "slug": "kettlebell-walk-del-farmer-pesrusa"
+  },
+  {
+    "id": "caminata_del_granjero_con_pesa_rusa_a_un_brazo",
+    "title": "Caminata del granjero con pesa rusa a un brazo",
+    "slug": "kettlebell-walk-del-farmer-pesrussingle-arm"
+  },
+  {
+    "id": "caminata_del_granjero_con_pesas_rusas",
+    "title": "Caminata del granjero con pesas rusas",
+    "slug": "kettlebell-walk-del-farmer-pesas-rusas"
+  },
+  {
+    "id": "curl_de_mu_eca_con_kettlebell_en_banco",
+    "title": "Curl de Muñeca con Kettlebell en Banco",
+    "slug": "kettlebell-curl-wrist-kettlebell-bench"
+  },
+  {
+    "id": "extensi_n_de_mu_eca_en_banco_con_kettlebell",
+    "title": "Extensión de Muñeca en Banco con Kettlebell",
+    "slug": "kettlebell-extension-wrist-bench-kettlebell"
+  },
+  {
+    "id": "puente_de_gl_teos_con_pesa_rusa",
+    "title": "Puente de Glúteos con Pesa Rusa",
+    "slug": "kettlebell-bridge-glute-pesrusa"
+  },
+  {
+    "id": "puente_de_gl_teos_a_una_pierna_con_kettlebell",
+    "title": "Puente de glúteos a una pierna con kettlebell",
+    "slug": "kettlebell-bridge-glute-single-leg-kettlebell"
+  },
+  {
+    "id": "elevaci_n_de_cadera_a_una_pierna_con_pesa_rusa",
+    "title": "Elevación de cadera a una pierna con pesa rusa",
+    "slug": "kettlebell-raise-hip-single-leg-pesrusa"
+  },
+  {
+    "id": "subida_al_caj_n_con_pesa_rusa",
+    "title": "Subida al cajón con pesa rusa",
+    "slug": "kettlebell-step-up-al-box-pesrusa"
+  },
+  {
+    "id": "sentadilla_en_copa_con_pesa_rusa",
+    "title": "Sentadilla en copa con pesa rusa",
+    "slug": "kettlebell-squat-goblet-pesrusa"
+  },
+  {
+    "id": "sentadilla_goblet_con_pesa_rusa_y_talones_elevados",
+    "title": "Sentadilla goblet con pesa rusa y talones elevados",
+    "slug": "kettlebell-squat-goblet-pesrustalones-elevados"
+  },
+  {
+    "id": "zancada_inversa_con_kettlebell_a_un_brazo",
+    "title": "Zancada Inversa con Kettlebell a Un Brazo",
+    "slug": "kettlebell-lunge-reverse-kettlebell-single-arm"
+  },
+  {
+    "id": "zancada_hacia_delante_con_kettlebell_a_un_brazo",
+    "title": "Zancada hacia delante con kettlebell a un brazo",
+    "slug": "kettlebell-lunge-hacidelante-kettlebell-single-arm"
+  },
+  {
+    "id": "zancada_lateral_con_pesa_rusa_una_mano",
+    "title": "Zancada Lateral con Pesa Rusa (Una Mano)",
+    "slug": "kettlebell-lunge-lateral-pesrusunmano"
+  },
+  {
+    "id": "cargada_y_press_con_pesa_rusa",
+    "title": "Cargada y press con pesa rusa",
+    "slug": "kettlebell-clean-and-press-pesrusa"
+  },
+  {
+    "id": "arrancada_con_pesas_rusas_doble",
+    "title": "Arrancada con pesas rusas (doble)",
+    "slug": "kettlebell-clean-pesas-rusas-double"
+  },
+  {
+    "id": "puente_de_gl_teos_con_pesa_rusa_en_figura_de_cuatro",
+    "title": "Puente De Glúteos Con Pesa Rusa En Figura De Cuatro",
+    "slug": "kettlebell-bridge-glute-pesrusfigure-four"
+  },
+  {
+    "id": "zancada_frontal_con_pesa_rusa_doble",
+    "title": "Zancada Frontal Con Pesa Rusa (Doble)",
+    "slug": "kettlebell-lunge-front-pesrusdouble"
+  },
+  {
+    "id": "zancada_lateral_con_kettlebell",
+    "title": "Zancada Lateral con Kettlebell",
+    "slug": "kettlebell-lunge-lateral-kettlebell"
+  },
+  {
+    "id": "zancada_inversa_con_pesa_rusa",
+    "title": "Zancada inversa con pesa rusa",
+    "slug": "kettlebell-lunge-reverse-pesrusa"
+  },
+  {
+    "id": "cargada_y_press_con_pesa_rusa_a_un_brazo",
+    "title": "Cargada y press con pesa rusa a un brazo",
+    "slug": "kettlebell-clean-and-press-pesrussingle-arm"
+  },
+  {
+    "id": "zancada_de_reverencia_con_pesa_rusa_a_un_brazo",
+    "title": "Zancada de reverencia con pesa rusa a un brazo",
+    "slug": "kettlebell-lunge-curtspesrussingle-arm"
+  },
+  {
+    "id": "zancada_inversa_a_un_brazo_con_kettlebell_en_rack_frontal",
+    "title": "Zancada Inversa A Un Brazo Con Kettlebell En Rack Frontal",
+    "slug": "kettlebell-lunge-reverse-single-arm-kettlebell-front-rack"
+  },
+  {
+    "id": "arranque_con_kettlebell_a_un_brazo",
+    "title": "Arranque con kettlebell a un brazo",
+    "slug": "kettlebell-snatch-kettlebell-single-arm"
+  },
+  {
+    "id": "subida_al_step_con_dos_pesas_rusas",
+    "title": "Subida al step con dos pesas rusas",
+    "slug": "kettlebell-step-up-al-step-dos-pesas-rusas"
+  },
+  {
+    "id": "subida_al_banco_con_pesa_rusa_a_un_brazo_equilibrio",
+    "title": "Subida al banco con pesa rusa a un brazo (equilibrio)",
+    "slug": "kettlebell-step-up-al-banco-pesrussingle-arm-balance"
+  },
+  {
+    "id": "sentadilla_con_soporte_de_pesa_rusa",
+    "title": "Sentadilla con soporte de pesa rusa",
+    "slug": "kettlebell-squat-supported-pesrusa"
+  },
+  {
+    "id": "balanceo_de_pesas_rusas_con_zancada",
+    "title": "Balanceo de pesas rusas con zancada",
+    "slug": "kettlebell-swing-pesas-rusas-lunge"
+  },
+  {
+    "id": "kettlebell_zancada_en_reverencia_alternada",
+    "title": "Kettlebell zancada en reverencia alternada",
+    "slug": "kettlebell-alternating-curtsy-lunge"
+  },
+  {
+    "id": "estocada_lateral_alternada_con_kettlebell",
+    "title": "Estocada lateral alternada con kettlebell",
+    "slug": "kettlebell-lunge-lateral-alternatingting-kettlebell"
+  },
+  {
+    "id": "kettlebell_estocada_inversa_alternada",
+    "title": "Kettlebell estocada inversa alternada",
+    "slug": "kettlebell-alternating-reverse-lunge"
+  },
+  {
+    "id": "zancada_adelante_alternada_con_kettlebell",
+    "title": "Zancada adelante alternada con kettlebell",
+    "slug": "kettlebell-lunge-adelante-alternatingting-kettlebell"
+  },
+  {
+    "id": "sentadilla_b_lgara_asistida_con_pesa_rusa",
+    "title": "Sentadilla búlgara asistida con pesa rusa",
+    "slug": "kettlebell-squat-blgarassisted-pesrusa"
+  },
+  {
+    "id": "zancada_inversa_con_d_ficit_en_rack_frontal_con_kettlebell",
+    "title": "Zancada inversa con déficit en rack frontal con kettlebell",
+    "slug": "kettlebell-lunge-reverse-deficit-front-rack-kettlebell"
+  },
+  {
+    "id": "estocada_inversa_con_d_ficit_con_pesa_rusa",
+    "title": "Estocada inversa con déficit con pesa rusa",
+    "slug": "kettlebell-lunge-reverse-deficit-pesrusa"
+  },
+  {
+    "id": "patada_de_cu_driceps_con_pesa_rusa",
+    "title": "Patada de cuádriceps con pesa rusa",
+    "slug": "kettlebell-kick-quad-pesrusa"
+  },
+  {
+    "id": "kettlebell_alternating_single_arm_thruster",
+    "title": "Kettlebell Alternating Single Arm Thruster",
+    "slug": "kettlebell-alternating-single-arm-thruster"
+  },
+  {
+    "id": "kettlebell_single_arm_thruster",
+    "title": "Kettlebell Single Arm Thruster",
+    "slug": "kettlebell-single-arm-thruster"
+  },
+  {
+    "id": "kettlebell_thruster",
+    "title": "Kettlebell Thruster",
+    "slug": "kettlebell-thruster"
+  },
+  {
+    "id": "kettlebell_single_arm_front_rack_step_up_knee_drive",
+    "title": "Kettlebell Single Arm Front Rack Step Up Knee Drive",
+    "slug": "kettlebell-single-arm-front-rack-step-up-knee-drive"
+  },
+  {
+    "id": "kettlebell_front_rack_step_up_knee_drive",
+    "title": "Kettlebell Front Rack Step Up Knee Drive",
+    "slug": "kettlebell-front-rack-step-up-knee-drive"
+  },
+  {
+    "id": "kettlebell_single_arm_step_up_knee_drive",
+    "title": "Kettlebell Single Arm Step Up Knee Drive",
+    "slug": "kettlebell-single-arm-step-up-knee-drive"
+  },
+  {
+    "id": "kettlebell_somersault_squat",
+    "title": "Kettlebell Somersault Squat",
+    "slug": "kettlebell-somersault-squat"
+  },
+  {
+    "id": "extensi_n_de_hombro_con_pesa_rusa",
+    "title": "Extensión de Hombro con Pesa Rusa",
+    "slug": "kettlebell-extension-shoulder-pesrusa"
+  },
+  {
+    "id": "pullover_con_pesa_rusa",
+    "title": "Pullover con pesa rusa",
+    "slug": "kettlebell-pullover-pesrusa"
+  },
+  {
+    "id": "kettlebell_single_arm_shoulder_extension",
+    "title": "Kettlebell Single Arm Shoulder Extension",
+    "slug": "kettlebell-single-arm-shoulder-extension"
+  },
+  {
+    "id": "kettlebell_single_arm_pullover",
+    "title": "Kettlebell Single Arm Pullover",
+    "slug": "kettlebell-single-arm-pullover"
+  },
+  {
+    "id": "elevaci_n_frontal_con_pesa_rusa",
+    "title": "Elevación Frontal Con Pesa Rusa",
+    "slug": "kettlebell-raise-front-pesrusa"
+  },
+  {
+    "id": "elevaci_n_posterior_con_kettlebell_a_un_brazo",
+    "title": "Elevación posterior con kettlebell a un brazo",
+    "slug": "kettlebell-raise-posterior-kettlebell-single-arm"
+  },
+  {
+    "id": "elevaci_n_lateral_con_pesa_rusa_palanca_larga",
+    "title": "Elevación Lateral Con Pesa Rusa (Palanca Larga)",
+    "slug": "kettlebell-raise-lateral-pesruspalanclarga"
+  },
+  {
+    "id": "elevaci_n_lateral_con_pesa_rusa_a_un_brazo",
+    "title": "Elevación lateral con pesa rusa a un brazo",
+    "slug": "kettlebell-raise-lateral-pesrussingle-arm"
+  },
+  {
+    "id": "remo_al_ment_n_con_kettlebell",
+    "title": "Remo al mentón con kettlebell",
+    "slug": "kettlebell-row-to-chin-kettlebell"
+  },
+  {
+    "id": "push_press_con_pesa_rusa",
+    "title": "Push Press con Pesa Rusa",
+    "slug": "kettlebell-push-press-pesrusa"
+  },
+  {
+    "id": "press_militar_sentado_con_pesa_rusa",
+    "title": "Press Militar Sentado con Pesa Rusa",
+    "slug": "kettlebell-press-militarseated-pesrusa"
+  },
+  {
+    "id": "press_de_hombro_a_una_mano_con_kettlebell_en_posici_n_invertida",
+    "title": "Press de Hombro a una Mano con Kettlebell en Posición Invertida",
+    "slug": "kettlebell-press-shoulder-single-arm-kettlebell-upside-down"
+  },
+  {
+    "id": "press_militar_bottoms_up_con_pesa_rusa",
+    "title": "Press Militar Bottoms Up Con Pesa Rusa",
+    "slug": "kettlebell-press-militarbottoms-up-pesrusa"
+  },
+  {
+    "id": "press_de_hombro_con_kettlebell_en_posici_n_de_rodillas_con_el_peso_hacia_arriba",
+    "title": "Press de hombro con kettlebell en posición de rodillas, con el peso hacia arriba",
+    "slug": "kettlebell-press-shoulder-kettlebell-kneeling-el-peso-haciarriba"
+  },
+  {
+    "id": "kettlebell_single_arm_push_press",
+    "title": "Kettlebell Single Arm Push Press",
+    "slug": "kettlebell-single-arm-push-press"
+  },
+  {
+    "id": "remo_vertical_con_kettlebell_individual",
+    "title": "Remo Vertical con Kettlebell Individual",
+    "slug": "kettlebell-upright-row-kettlebell-individual"
+  },
+  {
+    "id": "press_inclinado_alto_con_pesa_rusa",
+    "title": "Press Inclinado Alto con Pesa Rusa",
+    "slug": "kettlebell-press-incline-alto-pesrusa"
+  },
+  {
+    "id": "press_inclinado_con_kettlebells",
+    "title": "Press Inclinado Con Kettlebells",
+    "slug": "kettlebell-press-incline-kettlebells"
+  },
+  {
+    "id": "press_franc_s_con_pesa_rusa",
+    "title": "Press francés con pesa rusa",
+    "slug": "kettlebell-press-french-pesrusa"
+  },
+  {
+    "id": "press_de_pecho_con_pesa_rusa_unilateral",
+    "title": "Press de Pecho con Pesa Rusa (Unilateral)",
+    "slug": "kettlebell-press-chest-pesrussingle-arm"
+  },
+  {
+    "id": "press_con_kettlebell_a_un_brazo",
+    "title": "Press con kettlebell a un brazo",
+    "slug": "kettlebell-press-kettlebell-single-arm"
+  },
+  {
+    "id": "flexi_n_con_paso_sobre_la_pesa_rusa",
+    "title": "Flexión con paso sobre la pesa rusa",
+    "slug": "kettlebell-curl-step-over-lpesrusa"
+  },
+  {
+    "id": "extensi_n_de_tr_ceps_de_pie_con_pesa_rusa",
+    "title": "Extensión de tríceps de pie con pesa rusa",
+    "slug": "kettlebell-extension-tricep-standing-pesrusa"
+  },
+  {
+    "id": "extensi_n_de_tr_ceps_declinada_con_pesa_rusa",
+    "title": "Extensión De Tríceps Declinada Con Pesa Rusa",
+    "slug": "kettlebell-extension-tricep-decline-pesrusa"
+  },
+  {
+    "id": "tate_press_con_kettlebell",
+    "title": "Tate press con kettlebell",
+    "slug": "kettlebell-tate-press-kettlebell"
+  },
+  {
+    "id": "press_de_banca_con_pesa_rusa",
+    "title": "Press de banca con pesa rusa",
+    "slug": "kettlebell-press-bancpesrusa"
+  },
+  {
+    "id": "press_de_guillotina_con_pesa_rusa",
+    "title": "Press de Guillotina con Pesa Rusa",
+    "slug": "kettlebell-press-guillotine-pesrusa"
+  },
+  {
+    "id": "press_de_piso_con_kettlebell",
+    "title": "Press de Piso con Kettlebell",
+    "slug": "kettlebell-press-floor-kettlebell"
+  },
+  {
+    "id": "prensa_de_suelo_con_kettlebell_a_un_brazo",
+    "title": "Prensa de Suelo con Kettlebell a un Brazo",
+    "slug": "kettlebell-prensfloor-kettlebell-single-arm"
+  },
+  {
+    "id": "extensi_n_de_tr_ceps_por_encima_de_la_cabeza_con_kettlebell",
+    "title": "Extensión de Tríceps por Encima de la Cabeza con Kettlebell",
+    "slug": "kettlebell-extension-tricep-overhead-kettlebell"
+  },
+  {
+    "id": "press_de_banca_inclinada_con_kettlebell_en_guillotina",
+    "title": "Press de banca inclinada con kettlebell en guillotina",
+    "slug": "kettlebell-press-bancincline-kettlebell-guillotine"
+  },
+  {
+    "id": "kettlebell_single_arm_incline_chest_press",
+    "title": "Kettlebell Single Arm Incline Chest Press",
+    "slug": "kettlebell-single-arm-incline-chest-press"
+  },
+  {
+    "id": "press_guillotina_con_kettlebell_a_un_brazo_para_tr_ceps",
+    "title": "Press guillotina con kettlebell a un brazo para tríceps",
+    "slug": "kettlebell-press-guillotine-kettlebell-single-arm-partricep"
+  },
+  {
+    "id": "encogimiento_de_hombros_con_pesa_rusa_a_un_brazo",
+    "title": "Encogimiento de hombros con pesa rusa (a un brazo)",
+    "slug": "kettlebell-shrug-shoulder-pesrussingle-arm"
+  },
+  {
+    "id": "encogimiento_de_hombros_con_pesa_rusa",
+    "title": "Encogimiento de hombros con pesa rusa",
+    "slug": "kettlebell-shrug-shoulder-pesrusa"
+  },
+  {
+    "id": "apertura_de_pecho_con_kettlebell_a_un_brazo",
+    "title": "Apertura de pecho con kettlebell a un brazo",
+    "slug": "kettlebell-flchest-kettlebell-single-arm"
+  },
+  {
+    "id": "aperturas_de_pecho_con_kettlebell",
+    "title": "Aperturas de pecho con kettlebell",
+    "slug": "kettlebell-flchest-kettlebell"
+  },
+  {
+    "id": "kettlebell_single_arm_high_incline_chest_press",
+    "title": "Kettlebell Single Arm High Incline Chest Press",
+    "slug": "kettlebell-single-arm-high-incline-chest-press"
+  },
+  {
+    "id": "kettlebell_single_arm_chest_press",
+    "title": "Kettlebell Single Arm Chest Press",
+    "slug": "kettlebell-single-arm-chest-press"
+  },
+  {
+    "id": "kettlebell_single_arm_floor_fly",
+    "title": "Kettlebell Single Arm Floor Fly",
+    "slug": "kettlebell-single-arm-floor-fly"
+  },
+  {
+    "id": "kettlebell_floor_fly",
+    "title": "Kettlebell Floor Fly",
+    "slug": "kettlebell-floor-fly"
+  },
+  {
+    "id": "giro_de_tronco_con_pesa_rusa",
+    "title": "Giro de tronco con pesa rusa",
+    "slug": "kettlebell-twist-torso-pesrusa"
+  }
+]

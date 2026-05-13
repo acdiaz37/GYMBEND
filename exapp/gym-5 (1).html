@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Kettlebell - Rutina móvil</title>
+  <style>
+    :root{
+      --bg:#0b0b0f;--card:#15151b;--text:#f4f6f8;--muted:#a9b0b7;--accent:#10b981;--warn:#f59e0b;--danger:#ef4444;
+      --border:#23232b;--btn:#1f2937;--btnText:#f9fafb;--ok:#22c55e;--field:#0e0e14;--focus:#34d399;
+    }
+    [data-theme="light"]{
+      --bg:#f7f7fb;--card:#ffffff;--text:#0b0b0f;--muted:#384048;--accent:#0891b2;--warn:#b45309;--danger:#b91c1c;
+      --border:#e5e7eb;--btn:#0f172a;--btnText:#f8fafc;--ok:#16a34a;--field:#f4f7fb;--focus:#10b981;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Arial,sans-serif;}
+    .app{max-width:390px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column;border-left:1px solid var(--border);border-right:1px solid var(--border);}    
+    header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--border);z-index:10}
+    .bar{display:flex;align-items:center;gap:.5rem;padding:.8rem;justify-content:center}
+    .title{font-weight:800;font-size:1.05rem;text-align:center}
+    main{flex:1;padding:1rem;display:flex;flex-direction:column;gap:.9rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:1rem;padding:1rem}
+    .cta{display:block;width:100%;padding:1rem 1.2rem;border-radius:1rem;border:1px solid var(--border);background:linear-gradient(180deg,var(--accent),#059669);color:#022c22;font-weight:900;font-size:1.05rem;}
+    .btn{padding:.78rem .9rem;border-radius:.9rem;border:1px solid var(--border);background:var(--btn);color:var(--btnText);font-weight:700}
+    .btn.secondary{background:transparent;color:var(--text)}
+    .btn.danger{background:var(--danger);border-color:transparent}
+    .btn.ok{background:var(--ok);border-color:transparent}
+    .row{display:flex;gap:.6rem;align-items:center}
+    .row.wrap{flex-wrap:wrap}
+    .col{display:flex;flex-direction:column;gap:.5rem}
+    .muted{color:var(--muted);font-size:.9rem}
+    .list{display:flex;flex-direction:column;gap:.7rem}
+    .grid{display:grid;gap:.7rem}
+    .grid.two{grid-template-columns:1fr 1fr}
+    .pill{display:inline-flex;gap:.4rem;align-items:center;background:#00000020;border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.8rem}
+    .nav{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--border);display:flex;gap:.5rem;justify-content:space-around;padding:.5rem}
+    .navbtn{flex:1;border:1px solid var(--border);background:var(--card);color:var(--text);padding:.6rem;border-radius:.9rem;font-weight:700}
+    .tag{font-size:.75rem;color:var(--muted)}
+    .emoji{font-size:1.8rem}
+    .timer{font-variant-numeric:tabular-nums;font-size:1.3rem;font-weight:800}
+    details>summary{cursor:pointer;list-style:none}
+    details>summary::-webkit-details-marker{display:none}
+    .kbd{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;background:#00000030;border:1px solid var(--border);padding:.05rem .35rem;border-radius:.35rem}
+
+    /* --- Campos rediseñados (página ejercicio) --- */
+    .field{background:var(--field);border:1px solid var(--border);border-radius:.9rem;padding:.7rem .8rem;display:flex;flex-direction:column;gap:.35rem}
+    .label{font-size:.8rem;color:var(--muted)}
+    .inputrow{display:flex;align-items:center;gap:.6rem}
+    .input{flex:1;background:transparent;border:none;color:var(--text);font-weight:900;font-size:1.4rem;outline:none;text-align:center}
+    .input.small{font-size:1.1rem}
+    .input:focus{outline:2px solid var(--focus);outline-offset:2px;border-radius:.5rem}
+    .unit{font-size:.9rem;color:var(--muted)}
+    .seg{display:flex;background:var(--field);border:1px solid var(--border);border-radius:999px;overflow:hidden}
+    .seg button{flex:1;padding:.55rem .7rem;border:none;background:transparent;color:var(--text);font-weight:700}
+    .seg button.active{background:var(--ok);color:#03210f}
+    .notes{min-height:36px;max-height:64px;resize:vertical}
+
+    .stepper{display:flex;align-items:center;gap:.6rem;justify-content:center}
+    .stepper .sbtn{width:44px;height:44px;border-radius:.8rem;border:1px solid var(--border);background:var(--btn);color:var(--btnText);font-weight:900;font-size:1.2rem}
+
+    /* --- Popup cronómetro --- */
+    .modal{position:fixed;inset:0;background:#000000aa;display:flex;align-items:center;justify-content:center;z-index:50}
+    .hidden{display:none!important}
+    .modal-card{background:var(--card);border:1px solid var(--border);border-radius:1rem;padding:1.2rem 1.4rem;display:flex;flex-direction:column;align-items:center;gap:1rem;min-width:260px}
+    .circle-wrap{position:relative;width:140px;height:140px}
+    .circle-text{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:900}
+    svg{display:block}
+
+    /* --- Barra de desempeño --- */
+    .meter{position:relative;height:14px;border-radius:999px;background:linear-gradient(90deg,#ef4444 0%, #f59e0b 50%, #22c55e 100%);border:1px solid var(--border);overflow:hidden}
+    .meter .thumb{position:absolute;top:-4px;width:22px;height:22px;border-radius:999px;background:#fff;color:#000;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:900;border:2px solid #111;transform:translateX(-50%)}
+  </style>
+</head>
+<body>
+<div class="app" id="app" data-theme="dark">
+  <header>
+    <div class="bar">
+      <div class="title" id="title">Kettlebell</div>
+    </div>
+  </header>
+
+  <main id="view"></main>
+
+  <div class="nav">
+    <button class="navbtn" onclick="Router.go('home')">Inicio</button>
+    <button class="navbtn" onclick="Router.go('hist')">Histórico</button>
+    <button class="navbtn" onclick="Router.go('settings')">Ajustes</button>
+  </div>
+</div>
+
+<!-- Modal de descanso -->
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <div class="circle-wrap">
+      <svg id="timerSvg" width="140" height="140" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="52" stroke="#2a2f3a" stroke-width="8" fill="none"></circle>
+        <circle id="timerArc" cx="60" cy="60" r="52" stroke="var(--accent)" stroke-width="8" fill="none"
+                stroke-linecap="round" transform="rotate(-90 60 60)" stroke-dasharray="326.725"
+                stroke-dashoffset="0"></circle>
+      </svg>
+      <div class="circle-text"><span id="circleNum">0</span>s</div>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="Exercise.cancelRest()">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/******************* Estado *******************/
+const STORE_KEY = 'kb_tracker_v6';
+const DEFAULTS = { theme:'dark', restSec:60, vibrate:true, wakeLock:false, kbWeight:12, sessions:[] };
+const State = { load(){ try{ return {...DEFAULTS, ...(JSON.parse(localStorage.getItem(STORE_KEY)||'{}'))}; }catch{ return {...DEFAULTS}; } }, save(){ localStorage.setItem(STORE_KEY, JSON.stringify(APP)); } };
+let APP = State.load();
+
+/******************* Programa *******************/
+const PROGRAM = {
+  d1: { name:"Día 1 – Superior + Core", items:[
+    { id:"floor_press", name:"Kettlebell Floor Press (2 manos)", sets:4, reps:"10–12", unilateral:false, core:false, emoji:"💪" },
+    { id:"one_arm_row", name:"Kettlebell One-Arm Row", sets:4, reps:"12", unilateral:true, core:false, emoji:"🧲" },
+    { id:"oh_press", name:"Kettlebell Overhead Press / Push Press", sets:3, reps:"10–12", unilateral:true, core:false, emoji:"🧱" },
+    { id:"dead_bug", name:"Dead Bug", sets:3, reps:"12/lado", unilateral:true, core:true, emoji:"🐞" },
+    { id:"plank_taps", name:"Plancha con toques de hombro", sets:3, reps:"30–40s", unilateral:false, core:true, emoji:"🛡️" },
+  ]},
+  d2: { name:"Día 2 – Inferior + Core", items:[
+    { id:"goblet_squat", name:"Kettlebell Goblet Squat", sets:4, reps:"12–15", unilateral:false, core:false, emoji:"🏋️" },
+    { id:"single_leg_rdl", name:"Kettlebell RDL a una pierna (unilateral)", sets:4, reps:"10–12/lado", unilateral:true, core:false, emoji:"⚓" },
+    { id:"lunges", name:"Kettlebell Lunges alternos (Goblet hold)", sets:3, reps:"12/lado", unilateral:true, core:false, emoji:"🚶" },
+    { id:"glute_bridge", name:"Kettlebell Glute Bridge (KB en cadera)", sets:3, reps:"15", unilateral:false, core:false, emoji:"🍑" },
+    { id:"bird_dog", name:"Bird Dog", sets:3, reps:"12/lado", unilateral:true, core:true, emoji:"🐶" },
+  ]},
+  d3: { name:"Día 3 – Superior + Core", items:[
+    { id:"pushups", name:"Push-ups", sets:4, reps:"máx", unilateral:false, core:false, emoji:"🤸" },
+    { id:"renegade_row", name:"Kettlebell Renegade Row (sin flexión)", sets:3, reps:"10–12/lado", unilateral:true, core:false, emoji:"🧭" },
+    { id:"z_press", name:"Kettlebell Z-Press (2 manos)", sets:3, reps:"10–12", unilateral:false, core:false, emoji:"🌀" },
+    { id:"biceps_curl", name:"Kettlebell Biceps Curl (2 manos)", sets:3, reps:"12–15", unilateral:false, core:false, emoji:"🦾" },
+    { id:"pallof_press", name:"Pallof Press / Side Plank con reach", sets:3, reps:"12/lado", unilateral:true, core:true, emoji:"📐" },
+  ]},
+  d4: { name:"Día 4 – Inferior + Core", items:[
+    { id:"stepups", name:"Kettlebell Step-ups (Goblet hold)", sets:4, reps:"12/lado", unilateral:true, core:false, emoji:"🪜" },
+    { id:"bulgarian_squat", name:"Kettlebell Bulgarian Split Squat", sets:4, reps:"10–12/lado", unilateral:true, core:false, emoji:"🐘" },
+    { id:"calf_raises", name:"Kettlebell Calf Raises (Goblet hold)", sets:3, reps:"15–20", unilateral:false, core:false, emoji:"🦶" },
+    { id:"hip_thrust", name:"Kettlebell Hip Thrust (KB en cadera)", sets:3, reps:"12–15", unilateral:false, core:false, emoji:"🛋️" },
+    { id:"side_plank_leg", name:"Side Plank con elevación de pierna", sets:3, reps:"20–30s/lado", unilateral:true, core:true, emoji:"🧱" },
+  ]},
+};
+
+
+/******************* Utils *******************/
+const Utils = {
+  fmtDate(ts){const d=new Date(ts);return d.toLocaleString('es-CO',{dateStyle:'medium', timeStyle:'short'});},
+  vibe(ms=120){ if(APP.vibrate && navigator.vibrate) navigator.vibrate(ms); },
+  async keepAwake(on){ if(!('wakeLock' in navigator)) return; try{ if(on){ Utils._wl = await navigator.wakeLock.request('screen'); Utils._wl.addEventListener('release',()=>{});} else if(Utils._wl){ await Utils._wl.release(); Utils._wl=null; } }catch(e){} },
+  clamp(n,min,max){ return Math.max(min, Math.min(max, n)); },
+  avg(arr){ if(!arr.length) return 0; return Math.round((arr.reduce((a,b)=>a+b,0)/arr.length)*10)/10; },
+  parseTarget(repStr){ if(!repStr) return null; const m = String(repStr).match(/(\d+)/); if(!m) return null; return parseInt(m[1],10); },
+  findItemById(id){ for(const k of Object.keys(PROGRAM)){ const it = PROGRAM[k].items.find(x=>x.id===id); if(it) return it; } return null; }
+};
+
+/******************* Router *******************/
+const Router = { go(view, params={}){ UI.render(view, params); } };
+
+/******************* Sesión *******************/
+const Session = {
+  active:null, dayKey:null,
+  start(dayKey){
+    this.dayKey = dayKey;
+    this.active = {
+      started: Date.now(),
+      dayKey,
+      dayName: PROGRAM[dayKey].name,
+      details: PROGRAM[dayKey].items.map(it=>({ id:it.id, name:it.name, sets:[], completed:false })),
+      tmp: {},
+    };
+  },
+  ensureExercise(exIndex, item){
+    const d = this.active.details[exIndex];
+    if(!this.active.tmp[exIndex]){
+      this.active.tmp[exIndex] = { reps: (item.reps.includes('máx')?0:(parseInt(item.reps)||12)), rpe:7, side: item.unilateral? 'Izq':'', notes:'' };
+    }
+    const sets = d.sets; const nextSet = sets.length+1; return { sets, nextSet, tmp: this.active.tmp[exIndex] };
+  },
+  recordSet(exIndex, data){ this.active.details[exIndex].sets.push({ n:this.active.details[exIndex].sets.length+1, ...data }); },
+  markExerciseDone(exIndex){ this.active.details[exIndex].completed = true; },
+  canFinish(){ return !!this.active; },
+  endAndSave(){
+    const ended = Date.now();
+    const totalSets = this.active.details.reduce((a,b)=>a+b.sets.length,0);
+    const volume = this.active.details.reduce((a,b)=>a+b.sets.reduce((x,y)=>x+(parseInt(y.reps)||0),0),0);
+    const exercisesDone = this.active.details.filter(d=>d.completed||d.sets.length>0).length;
+    const sess = { started:this.active.started, ended, durationMin: Math.max(1, Math.round((ended-this.active.started)/60000)), dayName:this.active.dayName, totalSets, volume, exercisesDone, details:this.active.details };
+    APP.sessions.push(sess); State.save(); this.active=null; this.dayKey=null; return sess;
+  }
+};
+
+/******************* UI *******************/
+const UI = {
+  render(view, params){
+    const root=document.getElementById('view');
+    const title=document.getElementById('title');
+    document.getElementById('app').setAttribute('data-theme', APP.theme||'dark');
+
+    if(view==='home' || !view){
+      title.textContent='Kettlebell';
+      root.innerHTML = `
+        <section class="card center">
+          <h2>Seguimiento de rutina</h2>
+          <p class="muted">Móvil • Datos locales (<span class="kbd">localStorage</span>)</p>
+          <button class="cta" onclick="Router.go('days')">Iniciar rutina kettlebell</button>
+        </section>
+        <section class="card">
+          <h3>Últimas sesiones</h3>
+          <div class="list" id="lastSessions"></div>
+        </section>`;
+      const box = root.querySelector('#lastSessions');
+      if(!APP.sessions.length){ box.innerHTML = '<p class="muted">Aún no hay registros.</p>'; }
+      else{
+        const recent = [...APP.sessions].reverse().slice(0,5);
+        box.innerHTML = recent.map(s=>`<div class="row" style="justify-content:space-between"><div>
+          <div>${s.dayName}</div>
+          <div class="tag">${Utils.fmtDate(s.started)} • ${s.durationMin} min</div>
+        </div><div class="pill">Series ${s.totalSets}</div></div>`).join('');
+      }
+      return;
+    }
+
+    if(view==='days'){
+      title.textContent='Elige un día';
+      root.innerHTML = `<section class="list">${Object.entries(PROGRAM).map(([k,v])=>`
+        <div class="card">
+          <div class="row" style="justify-content:space-between;align-items:flex-start">
+            <div><h3>${v.name}</h3><div class="tag">${v.items.length} ejercicios</div></div>
+            <button class="btn" onclick="UI.startSession('${k}')">Comenzar</button>
+          </div>
+        </div>`).join('')}</section>`;
+      return;
+    }
+
+    if(view==='session'){
+      const {dayKey}=params; const day=PROGRAM[dayKey];
+      title.textContent=day.name;
+      const detail = Session.active.details;
+      root.innerHTML = `
+      <section class="card row wrap" style="justify-content:space-between">
+        <div class="pill">KB: <span id="kbL">${APP.kbWeight}</span> kg</div>
+        <div class="pill">Descanso: <span id="restL">${APP.restSec}</span>s</div>
+        <button class="btn secondary" onclick="UI.adjRest()">Ajustar</button>
+        <label class="pill"><input type="checkbox" ${APP.vibrate?'checked':''} onchange="APP.vibrate=this.checked;State.save()"> Vibrar</label>
+        <label class="pill"><input type="checkbox" ${APP.wakeLock?'checked':''} onchange="UI.toggleWL(this.checked)"> Mantener pantalla</label>
+      </section>
+      <section class="list">${day.items.map((it,idx)=>UI.exerciseCard(it,idx, detail[idx])).join('')}</section>
+      <section class="card center">
+        <button class="btn ok" onclick="UI.finishRoutineConfirm()">Finalizar rutina</button>
+      </section>
+      <div class="footer-space"></div>`;
+      return;
+    }
+
+    if(view==='exercise'){
+      title.textContent=params.item.name;
+      root.innerHTML = UI.exerciseView(params.item, params.exIndex);
+      return;
+    }
+
+    if(view==='finish'){
+      const s = params.summary;
+      title.textContent='Resumen de la rutina';
+      // agregados por ejercicio + ocultar los de 0 reps y barra vs meta
+      const perEx = s.details.map(d=>{
+        const reps = d.sets.map(x=>parseInt(x.reps)||0).filter(n=>n>0);
+        const rpes = d.sets.map(x=>parseInt(x.rpe)||0).filter(n=>n>0);
+        const total = reps.reduce((a,b)=>a+b,0);
+        if(total===0) return null; // ocultar ejercicios sin reps
+        const izq = d.sets.filter(x=>x.side==='Izq').length;
+        const der = d.sets.filter(x=>x.side==='Der').length;
+        const avgReps = Utils.avg(reps);
+        const itemRef = Utils.findItemById(d.id);
+        const target = Utils.parseTarget(itemRef?.reps);
+        const ratio = target? Math.max(0, Math.min(1.2, avgReps/target)) : null; // 0% a 120%
+        return { name:d.name, sets:d.sets.length, avgReps, avgRPE: Utils.avg(rpes), volume: total, sides: (izq||der)? `${izq} izq / ${der} der` : '—', target, ratio };
+      }).filter(Boolean);
+
+      root.innerHTML = `
+        <section class="card center">
+          <h2>¡Rutina finalizada! ✅</h2>
+          <p class="muted">${s.dayName} • ${Utils.fmtDate(s.started)}</p>
+          <div class="row wrap center" style="justify-content:center;gap:.5rem;margin:.6rem 0">
+            <span class="pill">Duración ${s.durationMin} min</span>
+            <span class="pill">Ejercicios ${perEx.length}</span>
+            <span class="pill">Series ${s.totalSets}</span>
+            <span class="pill">Volumen ${s.volume} reps</span>
+          </div>
+        </section>
+        <section class="card list">
+          <h3>Resumen por ejercicio</h3>
+          ${perEx.map(e=>`<div class="card">
+            <div class="row" style="justify-content:space-between;align-items:center">
+              <strong>${e.name}</strong>
+              <span class="pill">${e.sets} sets</span>
+            </div>
+            <div class="row wrap" style="gap:.4rem;margin-top:.4rem">
+              <span class="pill">Prom. reps: ${e.avgReps}</span>
+              <span class="pill">Prom. RPE: ${e.avgRPE}</span>
+              <span class="pill">Volumen: ${e.volume}</span>
+              <span class="pill">Lados: ${e.sides}</span>
+            </div>
+            ${e.target?`<div style="margin-top:.6rem">
+              <div class="meter"><div class="thumb" style="left:${Math.round(e.ratio*100)}%">${e.ratio<0.7?'🙁':(e.ratio<0.95?'😐':'💪')}</div></div>
+              <div class="row" style="justify-content:space-between;margin-top:.25rem"><span class="tag">0%</span><span class="tag">100% meta (${e.target})</span><span class="tag">120%</span></div>
+            </div>`:''}
+          </div>`).join('')}
+        </section>
+        <section class="center">
+          <button class="btn ok" onclick="Router.go('home')">Volver al inicio</button>
+        </section>`;
+      return;
+    }
+
+    if(view==='hist'){
+      title.textContent='Histórico';
+      root.innerHTML = `
+        <section class="card">
+          <h3>Sesiones</h3>
+          <div class="list">${APP.sessions.length?APP.sessions.map((s,i)=>`
+            <details>
+              <summary>
+                <div class="row" style="justify-content:space-between;align-items:center">
+                  <div>
+                    <div>${s.dayName}</div>
+                    <div class="tag">${Utils.fmtDate(s.started)} • ${s.durationMin} min • Series ${s.totalSets}</div>
+                  </div>
+                  <button class="btn secondary" onclick="History.delete(${i});event.stopPropagation()">Borrar</button>
+                </div>
+              </summary>
+              <div class="grid">${s.details.map(d=>`<div class="card">
+                <div class="row" style="justify-content:space-between"><strong>${d.name}</strong><span class="tag">${d.sets.length} sets ${d.completed?'• ✓':''}</span></div>
+              </div>`).join('')}</div>
+            </details>`).join('') : '<p class="muted">Sin registros aún.</p>'}
+          </div>
+        </section>
+        <section class="row wrap">
+          <button class="btn danger" onclick="History.clearAll()">Borrar todo</button>
+          <button class="btn" onclick="Backup.exportJSON()">Exportar JSON</button>
+          <label class="btn secondary" for="impFile">Importar JSON</label>
+          <input id="impFile" type="file" accept="application/json" class="hidden" onchange="Backup.importJSON(event)">
+        </section>`;
+      return;
+    }
+
+    if(view==='settings'){
+      title.textContent='Ajustes';
+      root.innerHTML = `
+        <section class="card list">
+          <div class="row"><label class="pill">Tema</label>
+            <button class="btn" onclick="UI.setTheme('dark')">Oscuro</button>
+            <button class="btn secondary" onclick="UI.setTheme('light')">Claro</button>
+          </div>
+          <div class="row">
+            <label class="pill">Descanso por defecto (s)</label>
+            <input type="number" id="restIn" min="10" max="300" value="${APP.restSec}">
+            <button class="btn" onclick="UI.saveRest()">Guardar</button>
+          </div>
+          <div class="row"><label class="pill">Kettlebell (kg)</label>
+            <input type="number" id="kbWeightIn" min="4" max="48" value="${APP.kbWeight}">
+            <button class="btn" onclick="UI.saveWeight()">Guardar</button>
+          </div>
+          <div class="row"><label class="pill"><input type="checkbox" ${APP.vibrate?'checked':''} onchange="APP.vibrate=this.checked;State.save()"> Vibración</label></div>
+          <div class="row"><label class="pill"><input type="checkbox" ${APP.wakeLock?'checked':''} onchange="UI.toggleWL(this.checked)"> Mantener pantalla encendida</label></div>
+        </section>`;
+      return;
+    }
+  },
+
+  exerciseCard(it, idx, status){
+    const done = status?.completed;
+    const progress = `${status?.sets?.length||0}/${it.sets}`;
+    const badge = done ? '✓ Hecho' : (status?.sets?.length? `En curso · ${progress}` : `Pendiente · ${progress}`);
+    return `<div class=\"card\">\n      <div class=\"row\" style=\"justify-content:space-between;align-items:center\">\n        <div class=\"col\">\n          <div class=\"row\" style=\"gap:.6rem;align-items:center\">\n            <div class=\"emoji\">${it.emoji}</div>\n            <!-- REEMPLAZAR EMOJI POR IMG JPG: \n                 Sustituye este <div class=emoji> por: <img src=\"${it.id}.jpg\" alt=\"${it.name}\" style=\"width:56px;height:56px;border-radius:.6rem;object-fit:cover\"> -->\n            <div>\n              <strong>${it.name}</strong>\n              <div class=\"tag\">${it.sets} sets • ${it.reps}${it.unilateral?' • Unilateral':''}${it.core?' • Core':''}</div>\n              <div class=\"pill\">${badge}</div>\n            </div>\n          </div>\n        </div>\n        <button class=\"btn\" onclick=\"Router.go('exercise',{item:PROGRAM[Session.dayKey].items[${idx}], exIndex:${idx}})\">Abrir</button>\n      </div>\n    </div>`;
+  },
+
+  exerciseView(item, exIndex){
+    const s = Session.ensureExercise(exIndex, item);
+    const unilateral = item.unilateral;
+    const canSaveExercise = s.sets.length>0;
+    const last = s.sets[s.sets.length-1];
+    return `
+    <section class="card list">
+      <div class="row" style="justify-content:space-between;align-items:center">
+        <div class="row" style="gap:.7rem;align-items:center">
+          <div class="emoji">${item.emoji}</div>
+          <!-- REEMPLAZAR EMOJI POR IMG JPG: <img src="${item.id}.jpg" alt="${item.name}" style="width:56px;height:56px;border-radius:.6rem;object-fit:cover"> -->
+          <div>
+            <strong>${item.name}</strong>
+            <div class="tag">Objetivo: ${item.reps} • Sets totales: ${item.sets}</div>
+          </div>
+        </div>
+        <span class="pill">Set ${s.nextSet} / ${item.sets}</span>
+      </div>
+
+      <!-- Reps y RPE APILADOS -->
+      <div class="list">
+        <div class="field">
+          <div class="label">Repeticiones</div>
+          <div class="stepper">
+            <button class="sbtn" onclick="Exercise.step('reps',-1,${exIndex})">−</button>
+            <input class="input" type="number" id="inReps" min="1" max="200" value="${s.tmp.reps}">
+            <button class="sbtn" onclick="Exercise.step('reps',1,${exIndex})">+</button>
+          </div>
+        </div>
+        <div class="field">
+          <div class="label">RPE (esfuerzo 1–10)</div>
+          <div class="stepper">
+            <button class="sbtn" onclick="Exercise.step('rpe',-1,${exIndex})">−</button>
+            <input class="input small" type="number" id="inRPE" min="1" max="10" value="${s.tmp.rpe}">
+            <button class="sbtn" onclick="Exercise.step('rpe',1,${exIndex})">+</button>
+          </div>
+        </div>
+      </div>
+
+      ${unilateral?`<div class="field">
+        <div class="label">Lado</div>
+        <div class="seg">
+          <button type="button" class="${s.tmp.side==='Izq'?'active':''}" onclick="Exercise.setSide(${exIndex},'Izq')">Izquierdo</button>
+          <button type="button" class="${s.tmp.side==='Der'?'active':''}" onclick="Exercise.setSide(${exIndex},'Der')">Derecho</button>
+        </div>
+      </div>`:''}
+
+      <details>
+        <summary class="label">Notas (opcional)</summary>
+        <div class="field" style="margin-top:.6rem">
+          <textarea id="inNotes" class="input notes" rows="2" placeholder="Técnica, sensaciones, dolor lumbar (0–10) ..." oninput="this.style.height='auto';this.style.height=(this.scrollHeight)+'px'">${s.tmp.notes||''}</textarea>
+        </div>
+      </details>
+
+      <div class="row wrap">
+        <button class="btn ok" onclick="Exercise.saveSet(${exIndex})">Guardar set</button>
+        <button class="btn" onclick="Exercise.startRest()">Descanso (<span class="timer" id="restT">${APP.restSec}</span>s)</button>
+        <button class="btn secondary" onclick="Router.go('session',{dayKey:Session.dayKey})">Volver</button>
+      </div>
+
+      <div class="row" style="justify-content:space-between">
+        <span class="tag">Sets registrados: ${s.sets.length}</span>
+        ${last?`<span class="tag">Último: ${last.reps} reps • RPE ${last.rpe}${last.side?` • ${last.side}`:''}</span>`:''}
+      </div>
+      <details open>
+        <summary><strong>Detalle de sets</strong></summary>
+        <ol id="setsList">${s.sets.map(st=>`<li>Set ${st.n}${st.side?` (${st.side})`:''}: ${st.reps} reps • RPE ${st.rpe}${st.notes?` • ${st.notes}`:''}</li>`).join('')}</ol>
+      </details>
+
+      <div class="row wrap" style="justify-content:space-between">
+        <button class="btn ${canSaveExercise?'ok':'secondary'}" ${canSaveExercise?'':'disabled'} onclick="Exercise.finishExercise(${exIndex})">Finalizar ejercicio</button>
+        <!-- Finalizar rutina solo en la vista de sesión -->
+      </div>
+    </section>`;
+  },
+
+  setTheme(t){ document.getElementById('app').setAttribute('data-theme',t); APP.theme=t; State.save(); },
+  saveRest(){ const v=parseInt(document.getElementById('restIn').value||'60',10); APP.restSec=Utils.clamp(v,10,300); State.save(); alert('Guardado.'); },
+  adjRest(){ const n=prompt('Descanso en segundos', APP.restSec); if(n){ APP.restSec=Utils.clamp(parseInt(n,10)||APP.restSec,10,300); State.save(); const l=document.getElementById('restL'); if(l) l.textContent=APP.restSec; } },
+  toggleWL(on){ APP.wakeLock=!!on; State.save(); Utils.keepAwake(on); },
+  saveWeight(){ const v=parseInt(document.getElementById('kbWeightIn').value||APP.kbWeight,10); APP.kbWeight=Utils.clamp(v||12,4,48); State.save(); alert('Peso guardado.'); },
+  startSession(dayKey){ Session.start(dayKey); Router.go('session',{dayKey}); },
+  finishRoutineConfirm(){ if(!Session.canFinish()){ alert('No hay sesión activa.'); return;} if(!confirm('¿Deseas finalizar la rutina?')) return; const summary = Session.endAndSave(); Router.go('finish',{summary}); }
+};
+
+/******************* Acciones de ejercicio *******************/
+const Exercise = {
+  setSide(exIndex, side){ Session.active.tmp[exIndex].side = side; Utils.vibe(50); Router.go('exercise',{ item: PROGRAM[Session.dayKey].items[exIndex], exIndex }); },
+  step(field,delta,exIndex){ const tmp=Session.active.tmp[exIndex]; if(field==='reps'){ tmp.reps = Utils.clamp((parseInt(tmp.reps)||0)+delta, 1, 200); } else { tmp.rpe = Utils.clamp((parseInt(tmp.rpe)||1)+delta, 1, 10); } Router.go('exercise',{ item: PROGRAM[Session.dayKey].items[exIndex], exIndex }); },
+  saveSet(exIndex){
+    const reps = parseInt(document.getElementById('inReps').value||'0',10);
+    const rpe = parseInt(document.getElementById('inRPE').value||'7',10);
+    const notes = (document.getElementById('inNotes')?.value||'').trim();
+    const side = (Session.active.tmp[exIndex]?.side)||'';
+    if(reps<=0 || rpe<1 || rpe>10){ alert('Verifica reps y RPE'); return; }
+    Session.recordSet(exIndex,{ reps, rpe, notes, side });
+    Utils.vibe();
+    const item = PROGRAM[Session.dayKey].items[exIndex];
+    if(item.unilateral){ Session.active.tmp[exIndex].side = (side==='Izq'?'Der':'Izq'); }
+    Router.go('exercise',{ item, exIndex });
+  },
+  _timer:null, _total:0,
+  startRest(){
+    const m=document.getElementById('modal'); m.classList.remove('hidden');
+    const num=document.getElementById('circleNum'); const arc=document.getElementById('timerArc');
+    const CIRC = 2*Math.PI*52; // stroke-dasharray
+    this._total = APP.restSec; let t = this._total;
+    arc.style.strokeDasharray = CIRC;
+    arc.style.strokeDashoffset = 0;
+    num.textContent = t;
+    clearInterval(this._timer);
+    Utils.vibe(80);
+    this._timer = setInterval(()=>{
+      t--; if(t<0){ t=0; }
+      num.textContent = t;
+      const progress = (1 - (t / this._total)) * CIRC;
+      arc.style.strokeDashoffset = progress;
+      if(t===0){ clearInterval(this._timer); Utils.vibe(220); document.getElementById('modal').classList.add('hidden'); }
+    },1000);
+  },
+  cancelRest(){ clearInterval(this._timer); document.getElementById('modal').classList.add('hidden'); },
+  finishExercise(exIndex){ Session.markExerciseDone(exIndex); alert('Ejercicio finalizado.'); Router.go('session',{dayKey:Session.dayKey}); }
+};
+
+/******************* Histórico / Respaldo *******************/
+const History = { delete(i){ if(!confirm('¿Borrar esta sesión?')) return; APP.sessions.splice(i,1); State.save(); Router.go('hist'); }, clearAll(){ if(!confirm('¿Borrar TODO el histórico?')) return; APP.sessions=[]; State.save(); Router.go('hist'); } };
+const Backup = { exportJSON(){ const blob=new Blob([JSON.stringify(APP,null,2)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='kettlebell_tracker_backup.json'; a.click(); URL.revokeObjectURL(a.href); }, importJSON(e){ const f=e.target.files[0]; if(!f) return; const r=new FileReader(); r.onload=()=>{ try{ const data=JSON.parse(r.result); if(!confirm('Esto reemplazará tu configuración y sesiones. ¿Continuar?')) return; APP=data; State.save(); alert('Importado.'); Router.go('home'); }catch{ alert('Archivo inválido'); } }; r.readAsText(f); } };
+
+/******************* Inicio *******************/
+(function init(){ Router.go('home'); if(APP.wakeLock) Utils.keepAwake(true); })();
+</script>
+</body>
+</html>
