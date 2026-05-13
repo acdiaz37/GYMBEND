@@ -186,13 +186,12 @@ export default function Home() {
     seedRoutines();
   }, [storage]);
 
-  const recentRoutines = routines
+  const availableRoutines = routines
     .slice()
     .sort(
       (a, b) =>
         new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
-    )
-    .slice(0, 3);
+    );
 
   const weekDays = getWeekDays();
   const weekProgress = weekDays.map((day) =>
@@ -254,14 +253,14 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Recent Routines */}
+        {/* All Routines */}
         <section>
           <h2 className="text-gray-subtitle text-xs font-semibold uppercase tracking-widest mb-4">
-            Recent Routines
+            All Routines
           </h2>
-          {recentRoutines.length > 0 ? (
+          {availableRoutines.length > 0 ? (
             <div className="space-y-1">
-              {recentRoutines.map((routine) => (
+              {availableRoutines.map((routine) => (
                 <div
                   key={routine.id}
                   className="flex items-center w-full py-3 gap-3"
