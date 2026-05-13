@@ -14,7 +14,7 @@ export function Header({ left, title, right }: HeaderProps) {
       <div className="w-10 flex items-center justify-start">
         {left || <div />}
       </div>
-      <div className="border border-gray-700 rounded-xl px-4 py-1.5">
+      <div className="border border-accent-blue rounded-xl px-4 py-1.5">
         <h1 className="text-lg font-bold text-white tracking-tight">{title}</h1>
       </div>
       <div className="w-10 flex items-center justify-end">
