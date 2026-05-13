@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
+import { AccountButton } from "./AccountButton";
 
 interface HeaderProps {
   left?: ReactNode;
@@ -16,7 +17,7 @@ export function Header({ left, title, right }: HeaderProps) {
       </div>
       <h1 className="text-lg font-bold text-white tracking-tight">{title}</h1>
       <div className="w-10 flex items-center justify-end">
-        {right || <div />}
+        {right || <AccountButton />}
       </div>
     </header>
   );

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { AuthProvider } from "@/components/AuthProvider";
 import { StorageProviderClient } from "@/components/StorageProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 
@@ -32,7 +33,9 @@ export default function RootLayout({
     <html lang="es">
       <body className="antialiased bg-black">
         <div id="mobile-root">
-          <StorageProviderClient>{children}</StorageProviderClient>
+          <AuthProvider>
+            <StorageProviderClient>{children}</StorageProviderClient>
+          </AuthProvider>
         </div>
         <ServiceWorkerRegister />
       </body>
