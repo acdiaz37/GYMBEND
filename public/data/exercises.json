@@ -1,0 +1,6119 @@
+[
+  {
+    "id": "upward_salute",
+    "title": "Upward Salute",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/upward_salute.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "lats",
+      "obliques",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "toe_touch",
+    "title": "Toe Touch",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/toe_touch.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "lunge",
+    "title": "Lunge",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/lunge.png",
+    "muscles": [
+      "abdomen",
+      "hips",
+      "lower back",
+      "psoas",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "upward_dog",
+    "title": "Upward Dog",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/upward_dog.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "psoas",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "child_s_pose",
+    "title": "Child's Pose",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/child_s_pose.png",
+    "muscles": [
+      "ankles",
+      "feet",
+      "hips",
+      "lower back",
+      "shins",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "downward_dog",
+    "title": "Downward Dog",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/downward_dog.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wide_leg_bend",
+    "title": "Wide Leg Bend",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wide_leg_bend.png",
+    "muscles": [
+      "calves",
+      "groin",
+      "hamstrings",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "shoulder_rolls",
+    "title": "Shoulder Rolls",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/shoulder_rolls.png",
+    "muscles": [
+      "neck",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "overhead_reach",
+    "title": "Overhead Reach",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/overhead_reach.png",
+    "muscles": [
+      "neck",
+      "shoulders",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "side_bend",
+    "title": "Side Bend",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/side_bend.png",
+    "muscles": [
+      "abdomen",
+      "lats",
+      "lower back",
+      "obliques",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "cactus_arms",
+    "title": "Cactus Arms",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/cactus_arms.png",
+    "muscles": [
+      "chest",
+      "neck",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "neck_flex",
+    "title": "Neck Flex",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/neck_flex.png",
+    "muscles": [
+      "neck",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "neck_roll",
+    "title": "Neck Roll",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/neck_roll.png",
+    "muscles": [
+      "neck",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "neck_laterals",
+    "title": "Neck Laterals",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/neck_laterals.png",
+    "muscles": [
+      "neck",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "diver",
+    "title": "Diver",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/diver.png",
+    "muscles": [
+      "lower back",
+      "neck",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "chest_opener",
+    "title": "Chest Opener",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/chest_opener.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "side_lunge",
+    "title": "Side Lunge",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/side_lunge.png",
+    "muscles": [
+      "calves",
+      "groin",
+      "hamstrings",
+      "hips"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "thunderbolt",
+    "title": "Thunderbolt",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/thunderbolt.png",
+    "muscles": [
+      "ankles",
+      "feet",
+      "knees",
+      "quadriceps",
+      "shins"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "pigeon",
+    "title": "Pigeon",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/pigeon.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "it band",
+      "lower back",
+      "psoas"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "seated_twist",
+    "title": "Seated Twist",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/seated_twist.png",
+    "muscles": [
+      "chest",
+      "glutes",
+      "hips",
+      "it band",
+      "lower back",
+      "obliques",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "knees_to_chest",
+    "title": "Knees-to-chest",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/knees_to_chest.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "lying_figure_four",
+    "title": "Lying Figure Four",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/lying_figure_four.png",
+    "muscles": [
+      "glutes",
+      "hips",
+      "it band",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "lying_hamstring",
+    "title": "Lying Hamstring",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/lying_hamstring.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "reclined_butterfly",
+    "title": "Reclined Butterfly",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/reclined_butterfly.png",
+    "muscles": [
+      "groin",
+      "hips",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "spinal_twist",
+    "title": "Spinal Twist",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/spinal_twist.png",
+    "muscles": [
+      "chest",
+      "glutes",
+      "it band",
+      "lower back",
+      "obliques",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "quad_stretch",
+    "title": "Quad Stretch",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/quad_stretch.png",
+    "muscles": [
+      "ankles",
+      "hips",
+      "knees",
+      "lower back",
+      "quadriceps",
+      "shins"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "butterfly",
+    "title": "Butterfly",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/butterfly.png",
+    "muscles": [
+      "groin",
+      "hips"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "seated_fold",
+    "title": "Seated Fold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/seated_fold.png",
+    "muscles": [
+      "calves",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "plow",
+    "title": "Plow",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/plow.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "neck",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "rag_doll",
+    "title": "Rag Doll",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/rag_doll.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "happy_baby",
+    "title": "Happy Baby",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/happy_baby.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "legs_up_wall",
+    "title": "Legs-up-wall",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/legs_up_wall.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "overhead_tricep",
+    "title": "Overhead Tricep",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/overhead_tricep.png",
+    "muscles": [
+      "chest",
+      "lats",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "forward_fold",
+    "title": "Forward Fold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/forward_fold.png",
+    "muscles": [
+      "calves",
+      "chest",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "one_arm_hug",
+    "title": "One Arm Hug",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/one_arm_hug.png",
+    "muscles": [
+      "lats",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "squat_stretch",
+    "title": "Squat Stretch",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/squat_stretch.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "knees",
+      "lower back",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "reverse_lunge",
+    "title": "Reverse Lunge",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/reverse_lunge.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "kneeling_quad",
+    "title": "Kneeling Quad",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/kneeling_quad.png",
+    "muscles": [
+      "abdomen",
+      "hips",
+      "psoas",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "saddle_pose",
+    "title": "Saddle Pose",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/saddle_pose.png",
+    "muscles": [
+      "abdomen",
+      "ankles",
+      "feet",
+      "hips",
+      "knees",
+      "lower back",
+      "psoas",
+      "quadriceps",
+      "shins",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "toe_squat",
+    "title": "Toe Squat",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/toe_squat.png",
+    "muscles": [
+      "ankles",
+      "calves",
+      "feet",
+      "toes"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wrist_extension",
+    "title": "Wrist Extension",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wrist_extension.png",
+    "muscles": [
+      "fingers",
+      "forearms",
+      "hands",
+      "wrists"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "lizard_pose",
+    "title": "Lizard Pose",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/lizard_pose.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "frog_pose",
+    "title": "Frog Pose",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/frog_pose.png",
+    "muscles": [
+      "groin",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "puppy_pose",
+    "title": "Puppy Pose",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/puppy_pose.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "lower back",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "twisted_sphinx",
+    "title": "Twisted Sphinx",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/twisted_sphinx.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "hips",
+      "it band",
+      "lower back",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "folded_butterfly",
+    "title": "Folded Butterfly",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/folded_butterfly.png",
+    "muscles": [
+      "groin",
+      "hips",
+      "knees",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "double_pigeon",
+    "title": "Double Pigeon",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/double_pigeon.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "it band"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "seated_straddle",
+    "title": "Seated Straddle",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/seated_straddle.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "lower back",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "hurdler",
+    "title": "Hurdler",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/hurdler.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "groin",
+      "hamstrings",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "shoulder_stand",
+    "title": "Shoulder Stand",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/shoulder_stand.png",
+    "muscles": [
+      "neck",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "standing_quad",
+    "title": "Standing Quad",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/standing_quad.png",
+    "muscles": [
+      "abdomen",
+      "ankles",
+      "feet",
+      "hips",
+      "knees",
+      "lower back",
+      "psoas",
+      "quadriceps",
+      "shins"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "leaning_calf",
+    "title": "Leaning Calf",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/leaning_calf.png",
+    "muscles": [
+      "ankles",
+      "calves",
+      "feet",
+      "hamstrings"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "cat_cow",
+    "title": "Cat Cow",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/cat_cow.png",
+    "muscles": [
+      "abdomen",
+      "lower back",
+      "neck",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "locust_pose",
+    "title": "Locust Pose",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/locust_pose.png",
+    "muscles": [
+      "glutes",
+      "lower back",
+      "neck",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "seated_figure_four",
+    "title": "Seated Figure Four",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/seated_figure_four.png",
+    "muscles": [
+      "glutes",
+      "hips",
+      "it band",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "seated_hamstring",
+    "title": "Seated Hamstring",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/seated_hamstring.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "trunk_rotation",
+    "title": "Trunk Rotation",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/trunk_rotation.png",
+    "muscles": [
+      "chest",
+      "glutes",
+      "hips",
+      "it band",
+      "lats",
+      "lower back",
+      "obliques",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "forearm_stretch",
+    "title": "Forearm Stretch",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/forearm_stretch.png",
+    "muscles": [
+      "fingers",
+      "forearms",
+      "hands"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "hamstring_pulls",
+    "title": "Hamstring Pulls",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/hamstring_pulls.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wall_dog",
+    "title": "Wall Dog",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wall_dog.png",
+    "muscles": [
+      "chest",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "shoulder_cross",
+    "title": "Shoulder Cross",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/shoulder_cross.png",
+    "muscles": [
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "shoulder_opener",
+    "title": "Shoulder Opener",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/shoulder_opener.png",
+    "muscles": [
+      "biceps",
+      "chest",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "front_split",
+    "title": "Front Split",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/front_split.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "jumping_jacks",
+    "title": "Jumping Jacks",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/jumping_jacks.png",
+    "muscles": [
+      "abdomen",
+      "calves",
+      "hamstrings",
+      "hips",
+      "lower back",
+      "quadriceps",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "air_squats",
+    "title": "Air Squats",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/air_squats.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "lower back",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "lateral_lunge",
+    "title": "Lateral Lunge",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/lateral_lunge.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "arm_circles",
+    "title": "Arm Circles",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/arm_circles.png",
+    "muscles": [
+      "chest",
+      "neck",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "arm_swings",
+    "title": "Arm Swings",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/arm_swings.png",
+    "muscles": [
+      "biceps",
+      "chest",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "trunk_twist",
+    "title": "Trunk Twist",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/trunk_twist.png",
+    "muscles": [
+      "abdomen",
+      "hips",
+      "it band",
+      "knees",
+      "lats",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "toe_touch_twist",
+    "title": "Toe Touch Twist",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/toe_touch_twist.png",
+    "muscles": [
+      "abdomen",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "knees_hugs",
+    "title": "Knees Hugs",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/knees_hugs.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "leg_swings",
+    "title": "Leg Swings",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/leg_swings.png",
+    "muscles": [
+      "abdomen",
+      "calves",
+      "glutes",
+      "groin",
+      "hamstrings",
+      "hips",
+      "lower back",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "knee_circles",
+    "title": "Knee Circles",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/knee_circles.png",
+    "muscles": [
+      "ankles",
+      "calves",
+      "feet",
+      "knees",
+      "shins"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wrist_flexion",
+    "title": "Wrist Flexion",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wrist_flexion.png",
+    "muscles": [
+      "fingers",
+      "forearms",
+      "hands",
+      "wrists"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "hand_plank",
+    "title": "Hand Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/hand_plank.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "glutes",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "elbow_plank",
+    "title": "Elbow Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/elbow_plank.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "glutes",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "elbow_side_plank",
+    "title": "Elbow Side Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/elbow_side_plank.png",
+    "muscles": [
+      "abdomen",
+      "obliques",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "hand_plank_leg_lift",
+    "title": "Hand Plank Leg Lift",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/hand_plank_leg_lift.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "glutes",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "hand_side_plank",
+    "title": "Hand Side Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/hand_side_plank.png",
+    "muscles": [
+      "abdomen",
+      "obliques",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "elbow_plank_leg_lift",
+    "title": "Elbow Plank Leg Lift",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/elbow_plank_leg_lift.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "glutes",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "hand_side_plank_leg_lift",
+    "title": "Hand Side Plank Leg Lift",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/hand_side_plank_leg_lift.png",
+    "muscles": [
+      "abdomen",
+      "glutes",
+      "obliques",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "elbow_side_plank_leg_lift",
+    "title": "Elbow Side Plank Leg Lift",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/elbow_side_plank_leg_lift.png",
+    "muscles": [
+      "abdomen",
+      "glutes",
+      "obliques",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "single_arm_plank",
+    "title": "Single Arm Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/single_arm_plank.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "glutes",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "bird_dog_plank",
+    "title": "Bird Dog Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bird_dog_plank.png",
+    "muscles": [
+      "glutes",
+      "lower back",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "elbow_pike",
+    "title": "Elbow Pike",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/elbow_pike.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "reverse_plank",
+    "title": "Reverse Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/reverse_plank.png",
+    "muscles": [
+      "abdomen",
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "reverse_plank_leg_lift",
+    "title": "Reverse Plank Leg Lift",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/reverse_plank_leg_lift.png",
+    "muscles": [
+      "abdomen",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower back",
+      "quadriceps",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "bridge",
+    "title": "Bridge",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bridge.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "leg_lift",
+    "title": "Leg Lift",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/leg_lift.png",
+    "muscles": [
+      "abdomen",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "toe_touch_hold",
+    "title": "Toe Touch Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/toe_touch_hold.png",
+    "muscles": [
+      "abdomen",
+      "glutes",
+      "lower back",
+      "obliques"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Abdomen, Obliques"
+    ]
+  },
+  {
+    "id": "bicycle_crunch_hold",
+    "title": "Bicycle Crunch Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bicycle_crunch_hold.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "lying_side_leg_raise",
+    "title": "Lying Side Leg Raise",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/lying_side_leg_raise.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "superman",
+    "title": "Superman",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/superman.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "crunch_hold",
+    "title": "Crunch Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/crunch_hold.png",
+    "muscles": [
+      "abdomen",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Abdomen, Obliques"
+    ]
+  },
+  {
+    "id": "v_sit",
+    "title": "V-Sit",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/v_sit.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "dead_bug",
+    "title": "Dead Bug",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/dead_bug.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "hollow_body",
+    "title": "Hollow Body",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/hollow_body.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "squat_hold",
+    "title": "Squat Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/squat_hold.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "split_lunge_hold",
+    "title": "Split Lunge Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/split_lunge_hold.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "narrow_squat_hold",
+    "title": "Narrow Squat Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/narrow_squat_hold.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "side_lunge_hold",
+    "title": "Side Lunge Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/side_lunge_hold.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "sumo_squat_hold",
+    "title": "Sumo Squat Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/sumo_squat_hold.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "curtsy_lunge_hold",
+    "title": "Curtsy Lunge Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/curtsy_lunge_hold.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wall_sit",
+    "title": "Wall Sit",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wall_sit.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "push_up_hold",
+    "title": "Push Up Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/push_up_hold.png",
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "pike",
+    "title": "Pike",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/pike.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "bent_arm_pike",
+    "title": "Bent Arm Pike",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bent_arm_pike.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "dip_hold",
+    "title": "Dip Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/dip_hold.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "narrow_push_up_hold",
+    "title": "Narrow Push Up Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/narrow_push_up_hold.png",
+    "muscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "bird_dog",
+    "title": "Bird Dog",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bird_dog.png",
+    "muscles": [
+      "glutes",
+      "lower back",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "aquaman",
+    "title": "Aquaman",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/aquaman.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "airplane",
+    "title": "Airplane",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/airplane.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "bridge_leg_lift",
+    "title": "Bridge Leg Lift",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bridge_leg_lift.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "glutes",
+      "lower back",
+      "obliques",
+      "shoulders",
+      "triceps",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "bulldog",
+    "title": "Bulldog",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bulldog.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "pistol_squat_hold",
+    "title": "Pistol Squat Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/pistol_squat_hold.png",
+    "muscles": [
+      "calves",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "spiderman_push_up_hold",
+    "title": "Spiderman Push Up Hold",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/spiderman_push_up_hold.png",
+    "muscles": [
+      "chest",
+      "obliques",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wall_plank",
+    "title": "Wall Plank",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wall_plank.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wall_pike",
+    "title": "Wall Pike",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wall_pike.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wall_handstand",
+    "title": "Wall Handstand",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wall_handstand.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "chin_retractions",
+    "title": "Chin Retractions",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/chin_retractions.png",
+    "muscles": [
+      "chest",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wall_pecs",
+    "title": "Wall Pecs",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wall_pecs.png",
+    "muscles": [
+      "abdomen",
+      "chest",
+      "lats",
+      "obliques",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "doorway_pecs",
+    "title": "Doorway Pecs",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/doorway_pecs.png",
+    "muscles": [
+      "lats",
+      "shoulders",
+      "triceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "reverse_shoulder",
+    "title": "Reverse Shoulder",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/reverse_shoulder.png",
+    "muscles": [
+      "neck",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "pelvic_tilt_press",
+    "title": "Pelvic Tilt Press",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/pelvic_tilt_press.png",
+    "muscles": [
+      "glutes",
+      "hamstrings",
+      "lower back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "single_knee_to_chest",
+    "title": "Single Knee-to-Chest",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/single_knee_to_chest.png",
+    "muscles": [
+      "ankles",
+      "hips",
+      "knees",
+      "quadriceps",
+      "shins"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "lying_quad_stretch",
+    "title": "Lying Quad Stretch",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/lying_quad_stretch.png",
+    "muscles": [
+      "abdomen",
+      "hips",
+      "lower back",
+      "psoas",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "standing_frog",
+    "title": "Standing Frog",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/standing_frog.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hips",
+      "knees"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "leaning_90_90",
+    "title": "Leaning 90/90",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/leaning_90_90.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hips",
+      "knees"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "90_90",
+    "title": "90/90",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/90_90.png",
+    "muscles": [
+      "glutes",
+      "groin",
+      "hips",
+      "knees"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "reverse_butterfly",
+    "title": "Reverse Butterfly",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/reverse_butterfly.png",
+    "muscles": [
+      "hips",
+      "knees"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "kneeling_psoas",
+    "title": "Kneeling Psoas",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/kneeling_psoas.png",
+    "muscles": [
+      "hips",
+      "it band",
+      "lats",
+      "lower back",
+      "obliques",
+      "psoas",
+      "quadriceps"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "standing_lunge_twist",
+    "title": "Standing Lunge Twist",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/standing_lunge_twist.png",
+    "muscles": [
+      "chest",
+      "hips",
+      "lower back",
+      "psoas",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "neck_extension",
+    "title": "Neck Extension",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/neck_extension.png",
+    "muscles": [
+      "neck",
+      "shoulders"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "neck_flexion",
+    "title": "Neck Flexion",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/neck_flexion.png",
+    "muscles": [
+      "chest",
+      "neck",
+      "shoulders",
+      "spine"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "ear_to_shoulder",
+    "title": "Ear-to-Shoulder",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/ear_to_shoulder.png",
+    "muscles": [
+      "neck",
+      "shoulders",
+      "spine",
+      "upper back"
+    ],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "scalene_stretch",
+    "title": "Scalene Stretch",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/scalene_stretch.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "scapula_stretch",
+    "title": "Scapula Stretch",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/scapula_stretch.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "neck_rotation",
+    "title": "Neck Rotation",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/neck_rotation.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "wall_arms",
+    "title": "Wall Arms",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/wall_arms.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "bear_hug",
+    "title": "Bear Hug",
+    "type": "stretch",
+    "duration": 60,
+    "image": "/illustrations/bear_hug.png",
+    "muscles": [],
+    "difficulty": "beginner",
+    "instructions": [
+      "Hold the stretch for 60 seconds",
+      "Breathe deeply and relax into the position",
+      "Keep your core engaged and maintain good posture",
+      "Do not bounce; ease into the stretch gradually"
+    ]
+  },
+  {
+    "id": "kettlebell-goblet-curl",
+    "title": "Kettlebell Goblet Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-goblet-curl.svg",
+    "muscles": [
+      "Bíceps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-goblet-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-concentration-curl",
+    "title": "Kettlebell Concentration Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-concentration-curl.svg",
+    "muscles": [
+      "Bíceps"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-concentration-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-preacher-curl",
+    "title": "Kettlebell Preacher Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-preacher-curl.svg",
+    "muscles": [
+      "Bíceps",
+      "Short Head Bicep"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-preacher-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-row-single",
+    "title": "Kettlebell Row (Single)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-row-single.svg",
+    "muscles": [
+      "Bíceps",
+      "Traps (mid-back)",
+      "Forearms",
+      "Lats"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-row-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-rear-delt-row",
+    "title": "Kettlebell Rear Delt Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-rear-delt-row.svg",
+    "muscles": [
+      "Bíceps",
+      "Shoulders",
+      "Posterior Deltoid",
+      "Rear Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-rear-delt-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-curl",
+    "title": "Kettlebell Single Arm Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-curl.svg",
+    "muscles": [
+      "Bíceps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-row",
+    "title": "Kettlebell Single Arm Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-row.svg",
+    "muscles": [
+      "Bíceps",
+      "Forearms",
+      "Lats"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-alternating-row",
+    "title": "Kettlebell Alternating Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-alternating-row.svg",
+    "muscles": [
+      "Bíceps",
+      "Forearms",
+      "Lats"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-alternating-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-curl",
+    "title": "Kettlebell Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-curl.svg",
+    "muscles": [
+      "Bíceps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-gorilla-row",
+    "title": "Kettlebell Gorilla Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-gorilla-row.svg",
+    "muscles": [
+      "Bíceps",
+      "Lats",
+      "Obliques"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-gorilla-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-rear-delt-row-double",
+    "title": "Kettlebell Rear Delt Row (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-rear-delt-row-double.svg",
+    "muscles": [
+      "Bíceps",
+      "Traps (mid-back)",
+      "Shoulders",
+      "Posterior Deltoid",
+      "Rear Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-rear-delt-row-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-reverse-curl",
+    "title": "Kettlebell Reverse Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-reverse-curl.svg",
+    "muscles": [
+      "Bíceps",
+      "Forearms"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-reverse-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-row",
+    "title": "Kettlebell Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-row.svg",
+    "muscles": [
+      "Bíceps",
+      "Forearms",
+      "Lats"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-reverse-curl",
+    "title": "Kettlebell Single Arm Reverse Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-reverse-curl.svg",
+    "muscles": [
+      "Bíceps",
+      "Forearms",
+      "Wrist Extensors"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-reverse-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-row-on-bench",
+    "title": "Kettlebell Single Arm Row On Bench",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-row-on-bench.svg",
+    "muscles": [
+      "Bíceps",
+      "Forearms",
+      "Lats"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-row-on-bench",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-drag-curl",
+    "title": "Kettlebell Drag Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-drag-curl.svg",
+    "muscles": [
+      "Bíceps",
+      "Long Head Bicep",
+      "Short Head Bicep"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-drag-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-rear-delt-row",
+    "title": "Kettlebell Single Arm Rear Delt Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-rear-delt-row.svg",
+    "muscles": [
+      "Bíceps",
+      "Traps (mid-back)",
+      "Shoulders",
+      "Posterior Deltoid",
+      "Rear Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-rear-delt-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-pendlay-row",
+    "title": "Kettlebell Single Arm Pendlay Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-pendlay-row.svg",
+    "muscles": [
+      "Bíceps",
+      "Lower back",
+      "Lats"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-pendlay-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-deadlift-single",
+    "title": "Kettlebell Deadlift (Single)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-deadlift-single.svg",
+    "muscles": [
+      "Traps (mid-back)",
+      "Lower back",
+      "Hamstrings"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-deadlift-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-silverback-shrug-single",
+    "title": "Kettlebell Silverback Shrug (Single)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-silverback-shrug-single.svg",
+    "muscles": [
+      "Traps (mid-back)",
+      "Traps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-silverback-shrug-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-incline-shrug",
+    "title": "Kettlebell Incline Shrug",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-incline-shrug.svg",
+    "muscles": [
+      "Traps (mid-back)",
+      "Traps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-incline-shrug",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-silverback-shrug",
+    "title": "Kettlebell Silverback Shrug",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-silverback-shrug.svg",
+    "muscles": [
+      "Traps (mid-back)",
+      "Upper Traps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-silverback-shrug",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-swing",
+    "title": "Kettlebell Swing",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-swing.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-swing",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-leg-deadlift",
+    "title": "Kettlebell Single Leg Deadlift",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-leg-deadlift.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-single-leg-deadlift",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-staggered-deadlift-single",
+    "title": "Kettlebell Staggered Deadlift (Single)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-staggered-deadlift-single.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-staggered-deadlift-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-goblet-good-morning",
+    "title": "Kettlebell Goblet Good Morning",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-goblet-good-morning.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-goblet-good-morning",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-superman",
+    "title": "Kettlebell Superman",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-superman.svg",
+    "muscles": [
+      "Lower back"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-superman",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-superman-hold",
+    "title": "Kettlebell Superman Hold",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-superman-hold.svg",
+    "muscles": [
+      "Lower back"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-superman-hold",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-alternating-swing",
+    "title": "Kettlebell Alternating Swing",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-alternating-swing.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-alternating-swing",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-conventional-deadlift-double",
+    "title": "Kettlebell Conventional Deadlift (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-conventional-deadlift-double.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-conventional-deadlift-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-swing-double",
+    "title": "Kettlebell Swing (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-swing-double.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-swing-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-full-swing",
+    "title": "Kettlebell Full Swing",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-full-swing.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings",
+      "Shoulders",
+      "Anterior Deltoid",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-full-swing",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-romanian-deadlift",
+    "title": "Kettlebell Romanian Deadlift",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-romanian-deadlift.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-romanian-deadlift",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-swing",
+    "title": "Kettlebell Single Arm Swing",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-swing.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-swing",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-staggered-deadlift",
+    "title": "Kettlebell Staggered Deadlift",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-staggered-deadlift.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-staggered-deadlift",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-staggered-swing",
+    "title": "Kettlebell Staggered Swing",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-staggered-swing.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-staggered-swing",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-sumo-deadlift",
+    "title": "Kettlebell Sumo Deadlift",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-sumo-deadlift.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-sumo-deadlift",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "swing-to-upright-row",
+    "title": "Swing To Upright Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/swing-to-upright-row.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings",
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Traps",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "swing-to-upright-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-suitcase-deadlift",
+    "title": "Kettlebell Suitcase Deadlift",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-suitcase-deadlift.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings",
+      "Obliques",
+      "Hands"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-suitcase-deadlift",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-box-squat",
+    "title": "Kettlebell Box Squat",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-box-squat.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-box-squat",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-staggered-waiters-bow",
+    "title": "Kettlebell Staggered Waiters Bow",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-staggered-waiters-bow.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-staggered-waiters-bow",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-waiters-bow",
+    "title": "Kettlebell Waiters Bow",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-waiters-bow.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-waiters-bow",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-half-kneeling-romanian-deadlift",
+    "title": "Kettlebell Half Kneeling Romanian Deadlift",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-half-kneeling-romanian-deadlift.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-half-kneeling-romanian-deadlift",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-half-kneeling-goblet-romanian-deadlift",
+    "title": "Kettlebell Half Kneeling Goblet Romanian Deadlift",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-half-kneeling-goblet-romanian-deadlift.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-half-kneeling-goblet-romanian-deadlift",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-hang-clean-and-press",
+    "title": "Kettlebell Hang Clean And Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-hang-clean-and-press.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-hang-clean-and-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-spinal-jefferson-curl",
+    "title": "Kettlebell Spinal Jefferson Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-spinal-jefferson-curl.svg",
+    "muscles": [
+      "Lower back"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-spinal-jefferson-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-clean-and-jerk",
+    "title": "Kettlebell Clean And Jerk",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-clean-and-jerk.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-clean-and-jerk",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-hang-clean-and-jerk",
+    "title": "Kettlebell Hang Clean And Jerk",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-hang-clean-and-jerk.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-hang-clean-and-jerk",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-hang-squat-clean-and-jerk",
+    "title": "Kettlebell Hang Squat Clean And Jerk",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-hang-squat-clean-and-jerk.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-hang-squat-clean-and-jerk",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-clean-and-jerk",
+    "title": "Kettlebell Single Arm Clean And Jerk",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-clean-and-jerk.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-single-arm-clean-and-jerk",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-hang-clean-and-jerk",
+    "title": "Kettlebell Single Arm Hang Clean And Jerk",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-hang-clean-and-jerk.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-single-arm-hang-clean-and-jerk",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-squat-clean-and-jerk",
+    "title": "Kettlebell Squat Clean And Jerk",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-squat-clean-and-jerk.svg",
+    "muscles": [
+      "Lower back",
+      "Glutes",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-squat-clean-and-jerk",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-situp",
+    "title": "Kettlebell Situp",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-situp.svg",
+    "muscles": [
+      "Abdominals",
+      "Upper Abdominals"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-situp",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-russian-twist",
+    "title": "Kettlebell Russian Twist",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-russian-twist.svg",
+    "muscles": [
+      "Abdominals",
+      "Obliques"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-russian-twist",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-windmill",
+    "title": "Kettlebell Windmill",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-windmill.svg",
+    "muscles": [
+      "Abdominals",
+      "Obliques"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-windmill",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-hollow-hold",
+    "title": "Kettlebell Hollow Hold",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-hollow-hold.svg",
+    "muscles": [
+      "Abdominals"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-hollow-hold",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-curtsy-lunge-double",
+    "title": "Kettlebell Front Rack Curtsy Lunge (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-curtsy-lunge-double.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Gluteus Medius",
+      "Quads"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-front-rack-curtsy-lunge-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-forward-lunge-double",
+    "title": "Kettlebell Front Rack Forward Lunge (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-forward-lunge-double.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-front-rack-forward-lunge-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-lateral-lunge-double",
+    "title": "Kettlebell Front Rack Lateral Lunge (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-lateral-lunge-double.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Gluteus Medius",
+      "Quads",
+      "Inner Quadriceps"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-front-rack-lateral-lunge-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-reverse-lunge-double",
+    "title": "Kettlebell Front Rack Reverse Lunge (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-reverse-lunge-double.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-front-rack-reverse-lunge-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-single-arm-lateral-lunge",
+    "title": "Kettlebell Front Rack Single Arm Lateral Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-single-arm-lateral-lunge.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Gluteus Medius",
+      "Quads",
+      "Inner Quadriceps"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-front-rack-single-arm-lateral-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-squat",
+    "title": "Kettlebell Front Rack Squat",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-squat.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-front-rack-squat",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-front-rack-forward-lunge",
+    "title": "Kettlebell Single Arm Front Rack Forward Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-front-rack-forward-lunge.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-front-rack-forward-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-front-rack-step-up",
+    "title": "Kettlebell Single Arm Front Rack Step Up",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-front-rack-step-up.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-single-arm-front-rack-step-up",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-step-up",
+    "title": "Kettlebell Front Rack Step Up",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-step-up.svg",
+    "muscles": [
+      "Abdominals",
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-front-rack-step-up",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-windmill-bottom-hand",
+    "title": "Kettlebell Windmill Bottom Hand",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-windmill-bottom-hand.svg",
+    "muscles": [
+      "Abdominals",
+      "Obliques"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-windmill-bottom-hand",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-larsen-press",
+    "title": "Kettlebell Single Arm Larsen Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-larsen-press.svg",
+    "muscles": [
+      "Abdominals",
+      "Lower Abdominals",
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-larsen-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-larsen-press",
+    "title": "Kettlebell Larsen Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-larsen-press.svg",
+    "muscles": [
+      "Abdominals",
+      "Lower Abdominals",
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-larsen-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-leg-calf-raise",
+    "title": "Kettlebell Single Leg Calf Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-leg-calf-raise.svg",
+    "muscles": [
+      "Calves",
+      "Gastrocnemius"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-leg-calf-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-calf-raise",
+    "title": "Kettlebell Calf Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-calf-raise.svg",
+    "muscles": [
+      "Calves",
+      "Gastrocnemius"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-calf-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-seated-calf-raise",
+    "title": "Kettlebell Seated Calf Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-seated-calf-raise.svg",
+    "muscles": [
+      "Calves",
+      "Soleus"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-seated-calf-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-calf-raise",
+    "title": "Kettlebell Single Arm Calf Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-calf-raise.svg",
+    "muscles": [
+      "Calves",
+      "Gastrocnemius"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-calf-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-goblet-calf-raise",
+    "title": "Kettlebell Goblet Calf Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-goblet-calf-raise.svg",
+    "muscles": [
+      "Calves",
+      "Gastrocnemius"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-goblet-calf-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-leg-single-arm-calf-raise",
+    "title": "Kettlebell Single Leg Single Arm Calf Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-leg-single-arm-calf-raise.svg",
+    "muscles": [
+      "Calves",
+      "Gastrocnemius"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-leg-single-arm-calf-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-seated-calf-raise-double",
+    "title": "Kettlebell Seated Calf Raise Double",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-seated-calf-raise-double.svg",
+    "muscles": [
+      "Calves",
+      "Soleus"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-seated-calf-raise-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-tibialis-raise",
+    "title": "Kettlebell Tibialis Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-tibialis-raise.svg",
+    "muscles": [
+      "Tibialis"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-tibialis-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-farmers-carry",
+    "title": "Kettlebell Farmers Carry",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-farmers-carry.svg",
+    "muscles": [
+      "Forearms",
+      "Wrist Flexors",
+      "Hands"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-farmers-carry",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-wrist-extension",
+    "title": "Kettlebell Wrist Extension",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-wrist-extension.svg",
+    "muscles": [
+      "Forearms",
+      "Wrist Extensors"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-wrist-extension",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-wrist-curl",
+    "title": "Kettlebell Wrist Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-wrist-curl.svg",
+    "muscles": [
+      "Forearms",
+      "Wrist Flexors"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-wrist-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-farmers-march",
+    "title": "Kettlebell Farmers March",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-farmers-march.svg",
+    "muscles": [
+      "Forearms",
+      "Hands"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-farmers-march",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-farmers-march",
+    "title": "Kettlebell Single Arm Farmers March",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-farmers-march.svg",
+    "muscles": [
+      "Forearms",
+      "Wrist Flexors",
+      "Hands"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-farmers-march",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-walking-farmers-march",
+    "title": "Kettlebell Walking Farmers March",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-walking-farmers-march.svg",
+    "muscles": [
+      "Forearms",
+      "Wrist Flexors",
+      "Hands"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-walking-farmers-march",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-bench-wrist-curl",
+    "title": "Kettlebell Bench Wrist Curl",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-bench-wrist-curl.svg",
+    "muscles": [
+      "Forearms",
+      "Wrist Flexors"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-bench-wrist-curl",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-farmers-walk",
+    "title": "Kettlebell Single Arm Farmers Walk",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-farmers-walk.svg",
+    "muscles": [
+      "Forearms",
+      "Obliques"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-farmers-walk",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-bench-wrist-extension",
+    "title": "Kettlebell Bench Wrist Extension",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-bench-wrist-extension.svg",
+    "muscles": [
+      "Wrist Extensors"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-bench-wrist-extension",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-glute-bridge",
+    "title": "Kettlebell Glute Bridge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-glute-bridge.svg",
+    "muscles": [
+      "Glutes"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-glute-bridge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-leg-glute-bridge",
+    "title": "Kettlebell Single Leg Glute Bridge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-leg-glute-bridge.svg",
+    "muscles": [
+      "Glutes"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-leg-glute-bridge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-hip-thrust",
+    "title": "Kettlebell Hip Thrust",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-hip-thrust.svg",
+    "muscles": [
+      "Glutes"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-hip-thrust",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-leg-hip-thrust",
+    "title": "Kettlebell Single Leg Hip Thrust",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-leg-hip-thrust.svg",
+    "muscles": [
+      "Glutes"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-single-leg-hip-thrust",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-step-up",
+    "title": "Kettlebell Step Up",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-step-up.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-step-up",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-goblet-squat",
+    "title": "Kettlebell Goblet Squat",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-goblet-squat.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-goblet-squat",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-heels-up-goblet-squat",
+    "title": "Kettlebell Heels Up Goblet Squat",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-heels-up-goblet-squat.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-heels-up-goblet-squat",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-reverse-lunge",
+    "title": "Kettlebell Single Arm Reverse Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-reverse-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-reverse-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-forward-lunge",
+    "title": "Kettlebell Single Arm Forward Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-forward-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-forward-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-lateral-lunge-single",
+    "title": "Kettlebell Lateral Lunge (Single)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-lateral-lunge-single.svg",
+    "muscles": [
+      "Glutes",
+      "Gluteus Medius",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-lateral-lunge-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-clean-and-press",
+    "title": "Kettlebell Clean And Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-clean-and-press.svg",
+    "muscles": [
+      "Glutes",
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-clean-and-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-snatch-double",
+    "title": "Kettlebell Snatch (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-snatch-double.svg",
+    "muscles": [
+      "Glutes",
+      "Shoulders",
+      "Anterior Deltoid",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-snatch-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-figure-four-hip-thrust",
+    "title": "Kettlebell Figure Four Hip Thrust",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-figure-four-hip-thrust.svg",
+    "muscles": [
+      "Glutes"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-figure-four-hip-thrust",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-forward-lunge-double",
+    "title": "Kettlebell Forward Lunge (Double)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-forward-lunge-double.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-forward-lunge-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-lateral-lunge",
+    "title": "Kettlebell Lateral Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-lateral-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Gluteus Medius",
+      "Quads",
+      "Inner Quadriceps"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-lateral-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-reverse-lunge",
+    "title": "Kettlebell Reverse Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-reverse-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-reverse-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-clean-and-press",
+    "title": "Kettlebell Single Arm Clean And Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-clean-and-press.svg",
+    "muscles": [
+      "Glutes",
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Triceps",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-clean-and-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-curtsy-lunge",
+    "title": "Kettlebell Single Arm Curtsy Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-curtsy-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Gluteus Medius",
+      "Gluteus Maximus",
+      "Quads",
+      "Inner Quadriceps"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-curtsy-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-front-rack-reverse-lunge",
+    "title": "Kettlebell Single Arm Front Rack Reverse Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-front-rack-reverse-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-front-rack-reverse-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-snatch",
+    "title": "Kettlebell Single Arm Snatch",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-snatch.svg",
+    "muscles": [
+      "Glutes",
+      "Shoulders",
+      "Anterior Deltoid",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-snatch",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-step-up-double",
+    "title": "Kettlebell Step Up Double",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-step-up-double.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-step-up-double",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-step-up-balance",
+    "title": "Kettlebell Single Arm Step Up Balance",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-step-up-balance.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-step-up-balance",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-kickstand-squat",
+    "title": "Kettlebell Kickstand Squat",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-kickstand-squat.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-kickstand-squat",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-swing-lunge",
+    "title": "Kettlebell Swing Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-swing-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-swing-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-alternating-curtsy-lunge",
+    "title": "Kettlebell Alternating Curtsy Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-alternating-curtsy-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Gluteus Medius",
+      "Gluteus Maximus",
+      "Quads",
+      "Inner Thigh",
+      "Inner Quadriceps",
+      "Outer Quadricep"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-alternating-curtsy-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-alternating-lateral-lunge",
+    "title": "Kettlebell Alternating Lateral Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-alternating-lateral-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-alternating-lateral-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-alternating-reverse-lunge",
+    "title": "Kettlebell Alternating Reverse Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-alternating-reverse-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-alternating-reverse-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-alternating-forward-lunge",
+    "title": "Kettlebell Alternating Forward Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-alternating-forward-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-alternating-forward-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-assisted-bulgarian-split-squat",
+    "title": "Kettlebell Assisted Bulgarian Split Squat",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-assisted-bulgarian-split-squat.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-assisted-bulgarian-split-squat",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-deficit-reverse-lunge",
+    "title": "Kettlebell Front Rack Deficit Reverse Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-deficit-reverse-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-front-rack-deficit-reverse-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-deficit-reverse-lunge",
+    "title": "Kettlebell Deficit Reverse Lunge",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-deficit-reverse-lunge.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-deficit-reverse-lunge",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-quad-stomp",
+    "title": "Kettlebell Quad Stomp",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-quad-stomp.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-quad-stomp",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-alternating-single-arm-thruster",
+    "title": "Kettlebell Alternating Single Arm Thruster",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-alternating-single-arm-thruster.svg",
+    "muscles": [
+      "Glutes",
+      "Gluteus Maximus",
+      "Shoulders",
+      "Anterior Deltoid",
+      "Quads",
+      "Inner Quadriceps",
+      "Outer Quadricep",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-alternating-single-arm-thruster",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-thruster",
+    "title": "Kettlebell Single Arm Thruster",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-thruster.svg",
+    "muscles": [
+      "Glutes",
+      "Gluteus Maximus",
+      "Shoulders",
+      "Anterior Deltoid",
+      "Quads",
+      "Inner Quadriceps",
+      "Outer Quadricep",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-thruster",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-thruster",
+    "title": "Kettlebell Thruster",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-thruster.svg",
+    "muscles": [
+      "Glutes",
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Quads",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-thruster",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-front-rack-step-up-knee-drive",
+    "title": "Kettlebell Single Arm Front Rack Step Up Knee Drive",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-front-rack-step-up-knee-drive.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-front-rack-step-up-knee-drive",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-rack-step-up-knee-drive",
+    "title": "Kettlebell Front Rack Step Up Knee Drive",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-rack-step-up-knee-drive.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-front-rack-step-up-knee-drive",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-step-up-knee-drive",
+    "title": "Kettlebell Single Arm Step Up Knee Drive",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-step-up-knee-drive.svg",
+    "muscles": [
+      "Glutes",
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-step-up-knee-drive",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-shoulder-extension",
+    "title": "Kettlebell Shoulder Extension",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-shoulder-extension.svg",
+    "muscles": [
+      "Lats"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-shoulder-extension",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-pullover",
+    "title": "Kettlebell Pullover",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-pullover.svg",
+    "muscles": [
+      "Lats"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-pullover",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-shoulder-extension",
+    "title": "Kettlebell Single Arm Shoulder Extension",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-shoulder-extension.svg",
+    "muscles": [
+      "Lats"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-shoulder-extension",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-pullover",
+    "title": "Kettlebell Single Arm Pullover",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-pullover.svg",
+    "muscles": [
+      "Lats"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-pullover",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-front-raise",
+    "title": "Kettlebell Front Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-front-raise.svg",
+    "muscles": [
+      "Shoulders",
+      "Anterior Deltoid",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-front-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-rear-delt-fly",
+    "title": "Kettlebell Single Arm Rear Delt Fly",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-rear-delt-fly.svg",
+    "muscles": [
+      "Shoulders",
+      "Posterior Deltoid",
+      "Rear Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-rear-delt-fly",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-long-lever-lateral-raise",
+    "title": "Kettlebell Long Lever Lateral Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-long-lever-lateral-raise.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-long-lever-lateral-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-lateral-raise",
+    "title": "Kettlebell Single Arm Lateral Raise",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-lateral-raise.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-lateral-raise",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-upright-row",
+    "title": "Kettlebell Upright Row",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-upright-row.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Traps",
+      "Upper Traps",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-upright-row",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-push-press",
+    "title": "Kettlebell Push Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-push-press.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Triceps",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-push-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-seated-overhead-press",
+    "title": "Kettlebell Seated Overhead Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-seated-overhead-press.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Triceps",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-seated-overhead-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-bottoms-up-single-arm-overhead-press",
+    "title": "Kettlebell Bottoms Up Single Arm Overhead Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-bottoms-up-single-arm-overhead-press.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Triceps",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-bottoms-up-single-arm-overhead-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-bottoms-up-overhead-press",
+    "title": "Kettlebell Bottoms Up Overhead Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-bottoms-up-overhead-press.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Triceps",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-bottoms-up-overhead-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-kneeling-bottoms-up-overhead-press",
+    "title": "Kettlebell Kneeling Bottoms Up Overhead Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-kneeling-bottoms-up-overhead-press.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Triceps",
+      "Front Shoulders"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-kneeling-bottoms-up-overhead-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-push-press",
+    "title": "Kettlebell Single Arm Push Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-push-press.svg",
+    "muscles": [
+      "Shoulders",
+      "Lateral Deltoid",
+      "Anterior Deltoid",
+      "Triceps",
+      "Front Shoulders"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-push-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-upright-row-single",
+    "title": "Kettlebell Upright Row Single",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-upright-row-single.svg",
+    "muscles": [
+      "Lateral Deltoid",
+      "Traps",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-upright-row-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-high-incline-bench-press",
+    "title": "Kettlebell High Incline Bench Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-high-incline-bench-press.svg",
+    "muscles": [
+      "Anterior Deltoid",
+      "Triceps",
+      "Chest",
+      "Upper Pectoralis",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-high-incline-bench-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-incline-bench-press",
+    "title": "Kettlebell Incline Bench Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-incline-bench-press.svg",
+    "muscles": [
+      "Anterior Deltoid",
+      "Triceps",
+      "Chest",
+      "Upper Pectoralis",
+      "Front Shoulders"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-incline-bench-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-skull-crusher",
+    "title": "Kettlebell Skull Crusher",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-skull-crusher.svg",
+    "muscles": [
+      "Triceps"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-skull-crusher",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-chest-press-single",
+    "title": "Kettlebell Chest Press (Single)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-chest-press-single.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-chest-press-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-press",
+    "title": "Kettlebell Single Arm Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-press.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-walkover-pushup",
+    "title": "Kettlebell Walkover Pushup",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-walkover-pushup.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-walkover-pushup",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-standing-tricep-extension",
+    "title": "Kettlebell Standing Tricep Extension",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-standing-tricep-extension.svg",
+    "muscles": [
+      "Triceps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-standing-tricep-extension",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-decline-skull-crusher",
+    "title": "Kettlebell Decline Skull Crusher",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-decline-skull-crusher.svg",
+    "muscles": [
+      "Triceps",
+      "Long Head Tricep"
+    ],
+    "difficulty": "advanced",
+    "videoSlug": "kettlebell-decline-skull-crusher",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-tate-press",
+    "title": "Kettlebell Tate Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-tate-press.svg",
+    "muscles": [
+      "Triceps"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-tate-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-bench-press",
+    "title": "Kettlebell Bench Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-bench-press.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-bench-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-guillotine-bench-press",
+    "title": "Kettlebell Guillotine Bench Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-guillotine-bench-press.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-guillotine-bench-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-floor-press",
+    "title": "Kettlebell Floor Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-floor-press.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-floor-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-floor-press",
+    "title": "Kettlebell Single Arm Floor Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-floor-press.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-floor-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-overhead-tricep-extension",
+    "title": "Kettlebell Overhead Tricep Extension",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-overhead-tricep-extension.svg",
+    "muscles": [
+      "Triceps",
+      "Long Head Tricep"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-overhead-tricep-extension",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-incline-guillotine-bench-press",
+    "title": "Kettlebell Incline Guillotine Bench Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-incline-guillotine-bench-press.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-incline-guillotine-bench-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-incline-chest-press",
+    "title": "Kettlebell Single Arm Incline Chest Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-incline-chest-press.svg",
+    "muscles": [
+      "Triceps",
+      "Chest"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-incline-chest-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-tricep-guilotine-press",
+    "title": "Kettlebell Single Arm Tricep Guilotine Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-tricep-guilotine-press.svg",
+    "muscles": [
+      "Triceps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-tricep-guilotine-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-shrug-single",
+    "title": "Kettlebell Shrug (Single)",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-shrug-single.svg",
+    "muscles": [
+      "Traps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-shrug-single",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-shrug",
+    "title": "Kettlebell Shrug",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-shrug.svg",
+    "muscles": [
+      "Traps",
+      "Upper Traps"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-shrug",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-somersault-squat",
+    "title": "Kettlebell Somersault Squat",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-somersault-squat.svg",
+    "muscles": [
+      "Quads"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-somersault-squat",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-chest-fly",
+    "title": "Kettlebell Single Arm Chest Fly",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-chest-fly.svg",
+    "muscles": [
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-chest-fly",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-pec-fly",
+    "title": "Kettlebell Pec Fly",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-pec-fly.svg",
+    "muscles": [
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-pec-fly",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-high-incline-chest-press",
+    "title": "Kettlebell Single Arm High Incline Chest Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-high-incline-chest-press.svg",
+    "muscles": [
+      "Chest",
+      "Mid and Lower Chest"
+    ],
+    "difficulty": "intermediate",
+    "videoSlug": "kettlebell-single-arm-high-incline-chest-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-chest-press",
+    "title": "Kettlebell Single Arm Chest Press",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-chest-press.svg",
+    "muscles": [
+      "Chest",
+      "Mid and Lower Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-chest-press",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-single-arm-floor-fly",
+    "title": "Kettlebell Single Arm Floor Fly",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-single-arm-floor-fly.svg",
+    "muscles": [
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-single-arm-floor-fly",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-floor-fly",
+    "title": "Kettlebell Floor Fly",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-floor-fly.svg",
+    "muscles": [
+      "Chest"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-floor-fly",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  },
+  {
+    "id": "kettlebell-wood-chopper",
+    "title": "Kettlebell Wood Chopper",
+    "type": "workout",
+    "duration": 45,
+    "image": "/illustrations/kettlebell-wood-chopper.svg",
+    "muscles": [
+      "Obliques"
+    ],
+    "difficulty": "beginner",
+    "videoSlug": "kettlebell-wood-chopper",
+    "instructions": [
+      "Maintain proper form throughout the movement",
+      "Breathe steadily and avoid holding your breath",
+      "Control the weight on both eccentric and concentric phases",
+      "Stop if you feel any sharp pain"
+    ]
+  }
+]

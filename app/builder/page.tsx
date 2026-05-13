@@ -1,23 +1,23 @@
 "use client";
 
-import { useState, useCallback, useEffect, Suspense } from "react";
+import { useState, useCallback, useEffect, useMemo, useRef, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { useVirtualizer } from "@tanstack/react-virtual";
 import { AppShell } from "@/components/AppShell";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/Button";
 import { useStorage } from "@/components/StorageProvider";
 import { Exercise, Routine, RoutineExercise } from "@/types";
-import exercisesData from "@/data/exercises.json";
+import { useExercises } from "@/lib/useExercises";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronUp, ChevronDown, X, Plus } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const allExercises: Exercise[] = exercisesData as Exercise[];
 
 function BuilderContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const storage = useStorage();
+  const { exercises: allExercises, loading: exercisesLoading } = useExercises();
   const editId = searchParams.get("edit");
 
   const [name, setName] = useState("New Routine");
@@ -94,6 +94,31 @@ function BuilderContent() {
 
   const exerciseMap = new Map(allExercises.map((e) => [e.id, e]));
 
+  // Picker virtualizer
+  const pickerExercises = useMemo(() => {
+    return allExercises.filter(
+      (ex) => pickerFilter === "all" || ex.type === pickerFilter
+    );
+  }, [allExercises, pickerFilter]);
+
+  const pickerRef = useRef<HTMLDivElement>(null);
+  const pickerVirtualizer = useVirtualizer({
+    count: pickerExercises.length,
+    getScrollElement: () => pickerRef.current,
+    estimateSize: () => 68,
+    overscan: 6,
+  });
+
+  if (exercisesLoading) {
+    return (
+      <AppShell header={<Header title="Routine Builder" />}>
+        <div className="flex items-center justify-center h-full text-gray-subtitle text-sm">
+          Loading...
+        </div>
+      </AppShell>
+    );
+  }
+
   return (
     <AppShell
       header={<Header title={isEditing ? "Edit Routine" : "Routine Builder"} />}
@@ -101,7 +126,7 @@ function BuilderContent() {
     >
       <div className="flex flex-col h-full px-6 pb-6">
         {/* Routine name */}
-        <div className="mb-6">
+        <div className="mb-6 shrink-0">
           <label className="text-gray-subtitle text-xs font-semibold uppercase tracking-widest mb-2 block">
             Routine Name
           </label>
@@ -210,14 +235,14 @@ function BuilderContent() {
         {/* Add exercise trigger */}
         <button
           onClick={() => setShowPicker(true)}
-          className="flex items-center gap-2 text-accent-blue font-semibold text-sm py-4 mt-2"
+          className="flex items-center gap-2 text-accent-blue font-semibold text-sm py-4 mt-2 shrink-0"
         >
           <Plus className="w-4 h-4" strokeWidth={2} />
           Add Exercise
         </button>
 
         {/* Save CTA */}
-        <div className="mt-auto pt-4">
+        <div className="mt-auto pt-4 shrink-0">
           <Button onClick={saveRoutine} variant="primary">
             {isEditing ? "Update Routine" : "Save Routine"}
           </Button>
@@ -234,7 +259,7 @@ function BuilderContent() {
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
             className="absolute inset-x-0 bottom-0 bg-neutral-900 rounded-t-3xl z-50 max-h-[70%] flex flex-col"
           >
-            <div className="flex items-center justify-between px-6 py-4 border-b border-separator">
+            <div className="flex items-center justify-between px-6 py-4 border-b border-separator shrink-0">
               <h2 className="text-white font-bold text-lg">Add Exercise</h2>
               <button onClick={() => setShowPicker(false)}>
                 <X className="w-5 h-5 text-gray-subtitle" strokeWidth={1.5} />
@@ -256,43 +281,73 @@ function BuilderContent() {
                 </button>
               ))}
             </div>
-            <div className="overflow-y-auto no-scrollbar p-4 space-y-1">
-              {allExercises
-                .filter((ex) => pickerFilter === "all" || ex.type === pickerFilter)
-                .map((ex) => {
-                const alreadyAdded = exercises.some(
-                  (re) => re.exerciseId === ex.id
-                );
-                return (
-                  <button
-                    key={ex.id}
-                    onClick={() => !alreadyAdded && addExercise(ex)}
-                    disabled={alreadyAdded}
-                    className={cn(
-                      "flex items-center gap-3 w-full px-4 py-3 rounded-2xl text-left transition-opacity",
-                      alreadyAdded ? "opacity-30" : "active:bg-white/5"
-                    )}
+            <div className="flex-1 overflow-hidden">
+              <div
+                ref={pickerRef}
+                className="h-full overflow-y-auto no-scrollbar p-4"
+              >
+                {pickerExercises.length > 0 ? (
+                  <div
+                    style={{
+                      height: `${pickerVirtualizer.getTotalSize()}px`,
+                      width: "100%",
+                      position: "relative",
+                    }}
                   >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={ex.image}
-                      alt={ex.title}
-                      className="w-10 h-10 rounded-full shrink-0"
-                    />
-                    <div className="flex-1 min-w-0">
-                      <p className="text-white font-semibold text-sm truncate">
-                        {ex.title}
-                      </p>
-                      <p className="text-gray-subtitle text-xs">
-                        {ex.type === "stretch"
-                          ? `${ex.duration}s hold`
-                          : `reps based`}
-                      </p>
-                    </div>
-                    <Plus className="w-4 h-4 text-accent-blue" strokeWidth={2} />
-                  </button>
-                );
-              })}
+                    {pickerVirtualizer.getVirtualItems().map((virtualItem) => {
+                      const ex = pickerExercises[virtualItem.index];
+                      const alreadyAdded = exercises.some(
+                        (re) => re.exerciseId === ex.id
+                      );
+                      return (
+                        <div
+                          key={ex.id}
+                          style={{
+                            position: "absolute",
+                            top: 0,
+                            left: 0,
+                            width: "100%",
+                            height: `${virtualItem.size}px`,
+                            transform: `translateY(${virtualItem.start}px)`,
+                          }}
+                        >
+                          <button
+                            onClick={() => !alreadyAdded && addExercise(ex)}
+                            disabled={alreadyAdded}
+                            className={cn(
+                              "flex items-center gap-3 w-full px-4 py-3 rounded-2xl text-left transition-opacity",
+                              alreadyAdded ? "opacity-30" : "active:bg-white/5"
+                            )}
+                          >
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={ex.image}
+                              alt={ex.title}
+                              className="w-10 h-10 rounded-full shrink-0"
+                              loading="lazy"
+                            />
+                            <div className="flex-1 min-w-0">
+                              <p className="text-white font-semibold text-sm truncate">
+                                {ex.title}
+                              </p>
+                              <p className="text-gray-subtitle text-xs">
+                                {ex.type === "stretch"
+                                  ? `${ex.duration}s hold`
+                                  : `reps based`}
+                              </p>
+                            </div>
+                            <Plus className="w-4 h-4 text-accent-blue" strokeWidth={2} />
+                          </button>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <p className="text-gray-subtitle text-sm text-center py-8">
+                    No exercises found
+                  </p>
+                )}
+              </div>
             </div>
           </motion.div>
         )}

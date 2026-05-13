@@ -4,12 +4,11 @@ import { useEffect, useState, useCallback, useMemo, useRef, Suspense } from "rea
 import { useSearchParams, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { useStorage } from "@/components/StorageProvider";
-import { Routine, Exercise, ProgressLog } from "@/types";
-import exercisesData from "@/data/exercises.json";
+import { Routine, ProgressLog } from "@/types";
+import { useExercises } from "@/lib/useExercises";
+import { playStartBeep, playCountdownBeep, playRestAmbient } from "@/lib/audio";
 import { Play, Pause, SkipForward, SkipBack, X, Check, Film } from "lucide-react";
 import { VideoModal } from "@/components/VideoModal";
-
-const allExercises: Exercise[] = exercisesData as Exercise[];
 
 const REST_DURATION = 15;
 
@@ -60,6 +59,7 @@ function PlayerContent() {
   const searchParams = useSearchParams();
   const storage = useStorage();
   const routineId = searchParams.get("routineId");
+  const { exercises: allExercises, loading: exercisesLoading } = useExercises();
 
   const [routine, setRoutine] = useState<Routine | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -71,10 +71,11 @@ function PlayerContent() {
   const [showVideo, setShowVideo] = useState(false);
   const startTimeRef = useRef<number>(0);
   const pausedTimeRef = useRef<number>(0);
+  const hasStartedRef = useRef(false);
 
   // Load routine
   useEffect(() => {
-    if (!routineId) return;
+    if (!routineId || allExercises.length === 0) return;
     storage.getRoutines().then((routines) => {
       const r = routines.find((rt) => rt.id === routineId);
       if (r) {
@@ -88,10 +89,11 @@ function PlayerContent() {
         setPhase("exercise");
         setTimeLeft(duration);
         setIsPlaying(isStretch);
+        hasStartedRef.current = false;
         startTimeRef.current = Date.now();
       }
     });
-  }, [routineId, storage]);
+  }, [routineId, storage, allExercises]);
 
   const loadExerciseIndex = useCallback((index: number) => {
     if (!routine) return;
@@ -102,19 +104,20 @@ function PlayerContent() {
     setPhase("exercise");
     setTimeLeft(duration);
     setIsPlaying(isStretch);
-  }, [routine]);
+    hasStartedRef.current = false;
+  }, [routine, allExercises]);
 
   const currentRoutineEx = routine?.exercises[currentIndex];
   const currentExercise = useMemo(() => {
     if (!currentRoutineEx) return null;
     return allExercises.find((e) => e.id === currentRoutineEx.exerciseId);
-  }, [currentRoutineEx]);
+  }, [currentRoutineEx, allExercises]);
 
   const nextExercise = useMemo(() => {
     if (!routine || currentIndex >= routine.exercises.length - 1) return null;
     const nextId = routine.exercises[currentIndex + 1]?.exerciseId;
     return allExercises.find((e) => e.id === nextId);
-  }, [routine, currentIndex]);
+  }, [routine, currentIndex, allExercises]);
 
   const totalExercises = routine?.exercises.length ?? 0;
 
@@ -128,6 +131,34 @@ function PlayerContent() {
 
     return () => clearInterval(interval);
   }, [isPlaying, isFinished]);
+
+  // Start beep when stretch timer begins
+  useEffect(() => {
+    if (
+      isPlaying &&
+      phase === "exercise" &&
+      currentExercise?.type === "stretch" &&
+      !hasStartedRef.current
+    ) {
+      hasStartedRef.current = true;
+      playStartBeep();
+    }
+  }, [isPlaying, phase, currentExercise]);
+
+  // Countdown beep in last 5 seconds
+  useEffect(() => {
+    if (!isPlaying || isFinished) return;
+    if (timeLeft > 0 && timeLeft <= 5) {
+      playCountdownBeep();
+    }
+  }, [timeLeft, isPlaying, isFinished]);
+
+  // Rest ambient sound when entering rest phase
+  useEffect(() => {
+    if (phase === "rest") {
+      playRestAmbient();
+    }
+  }, [phase]);
 
   // React to timeLeft reaching 0
   useEffect(() => {
@@ -166,7 +197,7 @@ function PlayerContent() {
       duration: total,
     };
     storage.logProgress(log);
-  }, [routine, storage]);
+  }, [routine, storage, allExercises]);
 
   const handlePlayPause = () => {
     if (isPlaying) {
@@ -228,6 +259,14 @@ function PlayerContent() {
     if (total === 0) return 0;
     return (total - timeLeft) / total;
   }, [timeLeft, currentExercise, currentRoutineEx, phase]);
+
+  if (exercisesLoading) {
+    return (
+      <div className="flex items-center justify-center h-full bg-black text-gray-subtitle text-sm">
+        Loading...
+      </div>
+    );
+  }
 
   if (!routineId) {
     return (

@@ -6,13 +6,11 @@ import { AppShell } from "@/components/AppShell";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/Button";
 import { useStorage } from "@/components/StorageProvider";
-import { Routine, ProgressLog, Exercise } from "@/types";
-import exercisesData from "@/data/exercises.json";
+import { Routine, ProgressLog } from "@/types";
+import { useExercises } from "@/lib/useExercises";
 import { motion } from "framer-motion";
 import { Play, Heart, Pencil, Trash2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const allExercises: Exercise[] = exercisesData as Exercise[];
 
 const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
@@ -49,6 +47,7 @@ const mutedColors = [
 export default function Home() {
   const router = useRouter();
   const storage = useStorage();
+  const { exercises: allExercises, loading: exercisesLoading } = useExercises();
   const [routines, setRoutines] = useState<Routine[]>([]);
   const [progress, setProgress] = useState<ProgressLog[]>([]);
   const [favorites, setFavorites] = useState<string[]>([]);
@@ -61,6 +60,8 @@ export default function Home() {
 
   // Seed routines and clean up broken ones
   useEffect(() => {
+    if (allExercises.length === 0) return;
+
     const seedRoutines = async () => {
       const existing = await storage.getRoutines();
       const validIds = new Set(allExercises.map((e) => e.id));
@@ -79,7 +80,16 @@ export default function Home() {
 
       // Remove old seed routines if they exist
       for (const r of cleaned) {
-        if (["lower back", "test mix", "día 1 – superior + core", "día 2 – inferior + core", "día 3 – superior + core", "día 4 – inferior + core"].includes(r.name.toLowerCase())) {
+        if (
+          [
+            "lower back",
+            "test mix",
+            "día 1 – superior + core",
+            "día 2 – inferior + core",
+            "día 3 – superior + core",
+            "día 4 – inferior + core",
+          ].includes(r.name.toLowerCase())
+        ) {
           await storage.deleteRoutine(r.id);
         }
       }
@@ -184,7 +194,7 @@ export default function Home() {
       setRoutines(updated);
     };
     seedRoutines();
-  }, [storage]);
+  }, [storage, allExercises]);
 
   const availableRoutines = routines
     .slice()
@@ -215,6 +225,16 @@ export default function Home() {
     const updated = await storage.getRoutines();
     setRoutines(updated);
   };
+
+  if (exercisesLoading) {
+    return (
+      <AppShell header={<Header title="GYMBEND" />}>
+        <div className="flex items-center justify-center h-full text-gray-subtitle text-sm">
+          Loading...
+        </div>
+      </AppShell>
+    );
+  }
 
   return (
     <AppShell header={<Header title="GYMBEND" />}>
