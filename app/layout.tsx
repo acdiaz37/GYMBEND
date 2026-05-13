@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { StorageProviderClient } from "@/components/StorageProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { VersionCheck } from "@/components/VersionCheck";
 
 export const metadata: Metadata = {
   title: "GYMBEND",
@@ -35,6 +36,7 @@ export default function RootLayout({
           <StorageProviderClient>{children}</StorageProviderClient>
         </div>
         <ServiceWorkerRegister />
+        <VersionCheck />
       </body>
     </html>
   );
