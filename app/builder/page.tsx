@@ -11,7 +11,7 @@ import { Exercise, Routine, RoutineExercise } from "@/types";
 import { useExercises } from "@/lib/useExercises";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronUp, ChevronDown, X, Plus } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, generateId } from "@/lib/utils";
 
 function BuilderContent() {
   const router = useRouter();
@@ -82,7 +82,7 @@ function BuilderContent() {
   const saveRoutine = async () => {
     if (exercises.length === 0) return;
     const routine: Routine = {
-      id: isEditing && editId ? editId : crypto.randomUUID(),
+      id: isEditing && editId ? editId : generateId(),
       name: name.trim() || "Untitled Routine",
       exercises,
       createdAt: new Date().toISOString(),

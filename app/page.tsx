@@ -10,7 +10,7 @@ import { Routine, ProgressLog } from "@/types";
 import { useExercises } from "@/lib/useExercises";
 import { motion } from "framer-motion";
 import { Play, Heart, Pencil, Trash2 } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, generateId } from "@/lib/utils";
 
 const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
@@ -180,7 +180,7 @@ export default function Home() {
             })),
           ];
           const routine: Routine = {
-            id: crypto.randomUUID(),
+            id: generateId(),
             name: day.name,
             exercises: allExercises,
             createdAt: new Date().toISOString(),

@@ -9,6 +9,7 @@ import { useExercises } from "@/lib/useExercises";
 import { playStartBeep, playCountdownBeep, playRestAmbient } from "@/lib/audio";
 import { Play, Pause, SkipForward, SkipBack, X, Check, Film } from "lucide-react";
 import { VideoModal } from "@/components/VideoModal";
+import { generateId } from "@/lib/utils";
 
 const REST_DURATION = 15;
 
@@ -191,7 +192,7 @@ function PlayerContent() {
     setIsFinished(true);
     setIsPlaying(false);
     const log: ProgressLog = {
-      id: crypto.randomUUID(),
+      id: generateId(),
       routineId: routine.id,
       completedAt: new Date().toISOString(),
       duration: total,

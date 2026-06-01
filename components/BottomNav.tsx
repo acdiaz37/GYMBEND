@@ -24,7 +24,7 @@ export function BottomNav() {
             key={tab.href}
             href={tab.href}
             className={cn(
-              "flex flex-col items-center justify-center gap-1 py-2 px-4 rounded-xl transition-colors",
+              "relative flex flex-col items-center justify-center gap-1 py-2 px-4 rounded-xl transition-colors",
               isActive ? "text-white" : "text-gray-subtitle"
             )}
           >
