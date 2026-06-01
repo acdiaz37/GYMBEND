@@ -5,7 +5,7 @@ import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 
 
 export const metadata: Metadata = {
-  title: "GYMBEND",
+  title: "🏋️ GYMBEND",
   description: "Premium stretching & home workout",
   manifest: "/manifest.json",
   appleWebApp: {
