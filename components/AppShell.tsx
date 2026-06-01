@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { BottomNav } from "./BottomNav";
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
@@ -16,14 +15,14 @@ export function AppShell({ children, header, showNav = true, mainClassName }: Ap
   return (
     <div className="flex flex-col h-full bg-black">
       {header}
-      <motion.main
-        initial={{ opacity: 0, y: 8 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
-        className={cn("flex-1 overflow-y-auto no-scrollbar", mainClassName)}
+      <main
+        className={cn(
+          "flex-1 overflow-y-auto no-scrollbar animate-fade-in",
+          mainClassName
+        )}
       >
         {children}
-      </motion.main>
+      </main>
       {showNav && <BottomNav />}
     </div>
   );
