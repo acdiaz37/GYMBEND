@@ -20,15 +20,56 @@ body {
 }
 
 #mobile-root {
-  max-width: 430px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   height: 100vh;
   height: 100dvh;
+  min-height: 100vh;
+  min-height: 100dvh;
   background: #000000;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+}
+
+/* Tablet and desktop: center the app with a wider, polished container */
+@media (min-width: 640px) {
+  body {
+    background: linear-gradient(135deg, #0f0f13 0%, #1a1a20 50%, #0f0f13 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  #mobile-root {
+    width: 100%;
+    max-width: 720px;
+    height: 100vh;
+    height: 100dvh;
+    max-height: 100vh;
+    max-height: 100dvh;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 16px;
+  }
+
+  #mobile-root {
+    max-width: 820px;
+    max-height: calc(100vh - 32px);
+    max-height: calc(100dvh - 32px);
+    border-radius: 32px;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
 }
 
 @layer utilities {

@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="antialiased bg-black">
+      <body className="antialiased">
         <div id="mobile-root">
           <StorageProviderClient>{children}</StorageProviderClient>
         </div>
