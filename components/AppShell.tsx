@@ -3,6 +3,7 @@
 import { BottomNav } from "./BottomNav";
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { APP_VERSION } from "@/lib/version";
 
 interface AppShellProps {
   children: ReactNode;
@@ -23,6 +24,13 @@ export function AppShell({ children, header, showNav = true, mainClassName }: Ap
       >
         {children}
       </main>
+      {showNav && (
+        <footer className="shrink-0 text-center py-1">
+          <span className="text-[9px] font-medium uppercase tracking-widest text-gray-subtitle/60">
+            v{APP_VERSION}
+          </span>
+        </footer>
+      )}
       {showNav && <BottomNav />}
     </div>
   );
