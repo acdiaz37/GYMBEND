@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import Script from "next/script";
 import { StorageProviderClient } from "@/components/StorageProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 
@@ -32,6 +33,26 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="antialiased">
+        <Script id="gymbend-cache-clear" strategy="beforeInteractive">
+          {`
+            (function () {
+              if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                  registrations.forEach(function (registration) {
+                    registration.unregister();
+                  });
+                });
+              }
+              if (typeof caches !== "undefined") {
+                caches.keys().then(function (names) {
+                  names.forEach(function (name) {
+                    caches.delete(name);
+                  });
+                });
+              }
+            })();
+          `}
+        </Script>
         <div id="mobile-root">
           <StorageProviderClient>{children}</StorageProviderClient>
         </div>
