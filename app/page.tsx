@@ -78,49 +78,43 @@ export default function Home() {
 
       const cleaned = await storage.getRoutines();
 
-      // Remove old seed routines if they exist
+      // Re-seed default routines whenever the template version changes
+      const SEED_VERSION = 2;
       for (const r of cleaned) {
-        if (
-          [
-            "lower back",
-            "test mix",
-            "día 1 – superior + core",
-            "día 2 – inferior + core",
-            "día 3 – superior + core",
-            "día 4 – inferior + core",
-          ].includes(r.name.toLowerCase())
-        ) {
+        const isDefaultName = [
+          "lower back",
+          "test mix",
+          "día 1 – superior + core",
+          "día 2 – inferior + core",
+          "día 3 – superior + core",
+          "día 4 – inferior + core",
+        ].includes(r.name.toLowerCase());
+        if (isDefaultName && r.seedVersion !== SEED_VERSION) {
           await storage.deleteRoutine(r.id);
         }
       }
 
       const final = await storage.getRoutines();
 
-      // Lower Back stretch sequence
-      const lowerBackExercises = [
-        { exerciseId: "rag_doll", duration: 60, order: 0 },
-        { exerciseId: "lunge", duration: 60, order: 1 },
-        { exerciseId: "child_s_pose", duration: 60, order: 2 },
-        { exerciseId: "cat_cow", duration: 60, order: 3 },
-        { exerciseId: "thunderbolt", duration: 60, order: 4 },
-        { exerciseId: "seated_fold", duration: 60, order: 5 },
-        { exerciseId: "seated_straddle", duration: 60, order: 6 },
-        { exerciseId: "knees_to_chest", duration: 60, order: 7 },
-        { exerciseId: "lying_figure_four", duration: 60, order: 8 },
-        { exerciseId: "happy_baby", duration: 60, order: 9 },
-        { exerciseId: "legs_up_wall", duration: 60, order: 10 },
+      // Warm-up / mobility sequence (back-friendly, shorter holds)
+      const warmUpExercises = [
+        { exerciseId: "cat_cow", duration: 30, order: 0 },
+        { exerciseId: "lunge", duration: 30, order: 1 },
+        { exerciseId: "bird_dog", duration: 30, order: 2 },
+        { exerciseId: "reverse_lunge", duration: 30, order: 3 },
+        { exerciseId: "lying_figure_four", duration: 30, order: 4 },
+        { exerciseId: "bridge", duration: 30, order: 5 },
       ];
 
-      // Cool Down stretch sequence
+      // Cool Down stretch sequence (back-friendly, focused on recovery)
       const coolDownExercises = [
-        { exerciseId: "child_s_pose", duration: 45, order: 0 },
-        { exerciseId: "cat_cow", duration: 45, order: 1 },
-        { exerciseId: "downward_dog", duration: 45, order: 2 },
-        { exerciseId: "pigeon", duration: 45, order: 3 },
-        { exerciseId: "spinal_twist", duration: 45, order: 4 },
-        { exerciseId: "seated_fold", duration: 45, order: 5 },
-        { exerciseId: "happy_baby", duration: 45, order: 6 },
-        { exerciseId: "legs_up_wall", duration: 45, order: 7 },
+        { exerciseId: "cat_cow", duration: 30, order: 0 },
+        { exerciseId: "lying_figure_four", duration: 30, order: 1 },
+        { exerciseId: "seated_figure_four", duration: 30, order: 2 },
+        { exerciseId: "reclined_butterfly", duration: 30, order: 3 },
+        { exerciseId: "wall_dog", duration: 30, order: 4 },
+        { exerciseId: "happy_baby", duration: 30, order: 5 },
+        { exerciseId: "legs_up_wall", duration: 60, order: 6 },
       ];
 
       const dayRoutines = [
@@ -169,14 +163,14 @@ export default function Home() {
       for (const day of dayRoutines) {
         if (!final.some((r) => r.name === day.name)) {
           const allExercises = [
-            ...lowerBackExercises.map((e, i) => ({ ...e, order: i })),
+            ...warmUpExercises.map((e, i) => ({ ...e, order: i })),
             ...day.workouts.map((e, i) => ({
               ...e,
-              order: lowerBackExercises.length + i,
+              order: warmUpExercises.length + i,
             })),
             ...coolDownExercises.map((e, i) => ({
               ...e,
-              order: lowerBackExercises.length + day.workouts.length + i,
+              order: warmUpExercises.length + day.workouts.length + i,
             })),
           ];
           const routine: Routine = {
@@ -186,6 +180,7 @@ export default function Home() {
             createdAt: new Date().toISOString(),
             updatedAt: new Date().toISOString(),
           };
+          routine.seedVersion = SEED_VERSION;
           await storage.saveRoutine(routine);
         }
       }

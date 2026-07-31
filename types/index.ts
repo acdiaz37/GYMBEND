@@ -27,6 +27,7 @@ export interface Routine {
   exercises: RoutineExercise[];
   createdAt: string; // ISO date
   updatedAt: string; // ISO date
+  seedVersion?: number; // tracks default-routine template updates
 }
 
 export interface ProgressLog {
