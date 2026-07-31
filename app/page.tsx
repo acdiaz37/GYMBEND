@@ -79,7 +79,7 @@ export default function Home() {
       const cleaned = await storage.getRoutines();
 
       // Re-seed default routines whenever the template version changes
-      const SEED_VERSION = 2;
+      const SEED_VERSION = 3;
       for (const r of cleaned) {
         const isDefaultName = [
           "lower back",
@@ -163,14 +163,16 @@ export default function Home() {
       for (const day of dayRoutines) {
         if (!final.some((r) => r.name === day.name)) {
           const allExercises = [
-            ...warmUpExercises.map((e, i) => ({ ...e, order: i })),
+            ...warmUpExercises.map((e, i) => ({ ...e, order: i, sets: 1 as const })),
             ...day.workouts.map((e, i) => ({
               ...e,
               order: warmUpExercises.length + i,
+              sets: 3 as const,
             })),
             ...coolDownExercises.map((e, i) => ({
               ...e,
               order: warmUpExercises.length + day.workouts.length + i,
+              sets: 1 as const,
             })),
           ];
           const routine: Routine = {

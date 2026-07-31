@@ -64,6 +64,7 @@ function PlayerContent() {
 
   const [routine, setRoutine] = useState<Routine | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentSet, setCurrentSet] = useState(1);
   const [phase, setPhase] = useState<"exercise" | "rest">("exercise");
   const [timeLeft, setTimeLeft] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -87,6 +88,7 @@ function PlayerContent() {
         const duration = isStretch ? (r.exercises[0]?.duration ?? firstEx?.duration ?? 0) : 0;
         setRoutine(r);
         setCurrentIndex(0);
+        setCurrentSet(1);
         setPhase("exercise");
         setTimeLeft(duration);
         setIsPlaying(isStretch);
@@ -102,6 +104,7 @@ function PlayerContent() {
     const isStretch = ex?.type === "stretch";
     const duration = isStretch ? (routine.exercises[index]?.duration ?? ex?.duration ?? 0) : 0;
     setCurrentIndex(index);
+    setCurrentSet(1);
     setPhase("exercise");
     setTimeLeft(duration);
     setIsPlaying(isStretch);
@@ -109,6 +112,7 @@ function PlayerContent() {
   }, [routine, allExercises]);
 
   const currentRoutineEx = routine?.exercises[currentIndex];
+  const totalSets = currentRoutineEx?.sets ?? 1;
   const currentExercise = useMemo(() => {
     if (!currentRoutineEx) return null;
     return allExercises.find((e) => e.id === currentRoutineEx.exerciseId);
@@ -186,7 +190,8 @@ function PlayerContent() {
       Math.floor((Date.now() - startTimeRef.current + pausedTimeRef.current) / 1000) ||
       routine.exercises.reduce((acc, re) => {
         const ex = allExercises.find((e) => e.id === re.exerciseId);
-        return acc + (re.duration ?? (ex?.type === "stretch" ? ex?.duration : 0) ?? 0);
+        const sets = re.sets ?? 1;
+        return acc + sets * (re.duration ?? (ex?.type === "stretch" ? ex?.duration : 0) ?? 0);
       }, 0);
     setTotalDuration(total);
     setIsFinished(true);
@@ -210,34 +215,57 @@ function PlayerContent() {
   };
 
   const handleNext = useCallback(() => {
-    if (!routine) return;
+    if (!routine || !currentRoutineEx || !currentExercise) return;
 
     if (phase === "exercise") {
-      if (currentIndex < routine.exercises.length - 1) {
-        setPhase("rest");
-        setTimeLeft(REST_DURATION);
-        setIsPlaying(true);
-      } else {
-        finishWorkout();
-      }
+      // Always rest after finishing a set
+      setPhase("rest");
+      setTimeLeft(REST_DURATION);
+      setIsPlaying(true);
     } else if (phase === "rest") {
-      if (currentIndex < routine.exercises.length - 1) {
+      if (currentSet < totalSets) {
+        // Stay on the same exercise and advance to the next set
+        setCurrentSet((s) => s + 1);
+        setPhase("exercise");
+        const isStretch = currentExercise.type === "stretch";
+        setTimeLeft(
+          isStretch
+            ? (currentRoutineEx.duration ?? currentExercise.duration ?? 0)
+            : 0
+        );
+        setIsPlaying(isStretch);
+        hasStartedRef.current = false;
+      } else if (currentIndex < routine.exercises.length - 1) {
         loadExerciseIndex(currentIndex + 1);
       } else {
         finishWorkout();
       }
     }
-  }, [phase, currentIndex, routine, finishWorkout, loadExerciseIndex]);
+  }, [phase, currentIndex, currentSet, totalSets, routine, currentRoutineEx, currentExercise, finishWorkout, loadExerciseIndex]);
 
   const handlePrev = () => {
     if (!routine || currentIndex === 0) return;
     if (phase === "rest") {
-      // Go back to current exercise
+      // Go back to the first set of the current exercise
       loadExerciseIndex(currentIndex);
-    } else {
-      // Go to previous exercise
-      loadExerciseIndex(currentIndex - 1);
+      return;
     }
+    if (currentSet > 1) {
+      // Go back one set within the current exercise
+      setCurrentSet((s) => s - 1);
+      setPhase("exercise");
+      const isStretch = currentExercise?.type === "stretch";
+      setTimeLeft(
+        isStretch
+          ? (currentRoutineEx?.duration ?? currentExercise?.duration ?? 0)
+          : 0
+      );
+      setIsPlaying(isStretch);
+      hasStartedRef.current = false;
+      return;
+    }
+    // Otherwise go to the previous exercise
+    loadExerciseIndex(currentIndex - 1);
   };
 
   const handleDone = () => {
@@ -320,10 +348,14 @@ function PlayerContent() {
   const isRest = phase === "rest";
   const displayTitle = isRest ? "Rest" : currentExercise.title;
   const displaySubtitle = isRest
-    ? nextExercise
-      ? `Up next: ${nextExercise.title}`
-      : "Almost done"
-    : currentExercise.type;
+    ? currentSet < totalSets
+      ? `Next: Set ${currentSet + 1} of ${totalSets} — ${currentExercise.title}`
+      : nextExercise
+        ? `Up next: ${nextExercise.title}`
+        : "Almost done"
+    : totalSets > 1
+      ? `Set ${currentSet} of ${totalSets} • ${currentExercise.type}`
+      : currentExercise.type;
 
   return (
     <motion.div

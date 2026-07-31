@@ -18,6 +18,7 @@ export interface RoutineExercise {
   exerciseId: string;
   duration?: number; // override for stretch or timed workouts
   reps?: number; // for workout type
+  sets?: number; // number of sets to perform (defaults to 1)
   order: number;
 }
 
